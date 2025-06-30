@@ -5,12 +5,226 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
         {
             "verified": false,
             "w": 2,
-            "h": 3,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/a7119dbadb/BodyDex1C.png",
-            "league": "Phrecia",
-            "id": "3c35581b28d8e893d9755fffaafa5edb1dc9afbcfaf4602d204e168aa8768b35",
-            "searing": true,
-            "tangled": true,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvSW5qZWN0b3JCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjEsInJlbGljIjo5fV0/25b7fdb4b5/InjectorBelt.png",
+            "league": "Mercenaries",
+            "id": "aa8d9da4da62fbc8bd24c78c4d08a33e2d5af30eb09f8579567c2657a8820b93",
+            "isRelic": true,
+            "foilVariation": 9,
+            "name": "Mageblood",
+            "typeLine": "Heavy Belt",
+            "baseType": "Heavy Belt",
+            "rarity": "Unique",
+            "ilvl": 84,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality (Attribute Modifiers)",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "44",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "implicitMods": [
+                "+42 to Strength"
+            ],
+            "explicitMods": [
+                "+38 to Dexterity",
+                "+23% to Fire Resistance",
+                "+25% to Cold Resistance",
+                "Magic Utility Flasks cannot be Used",
+                "Leftmost 4 Magic Utility Flasks constantly apply their Flask Effects to you",
+                "Magic Utility Flask Effects cannot be removed"
+            ],
+            "flavourText": [
+                "Rivers of power course through your veins."
+            ],
+            "frameType": 10,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Belt",
+            "incubatedItem": {
+                "name": "Currency Item",
+                "level": 61,
+                "progress": 1944,
+                "total": 3602
+            }
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZnMiOnRydWV9XQ/e6ecc91189/ruby.png",
+            "league": "Mercenaries",
+            "id": "df0bfe6f5f2688ce499bf293fe87480c78304d4f5b165fcaf380f931769513f5",
+            "name": "",
+            "typeLine": "Dabbler's Ruby Flask of Craft",
+            "baseType": "Ruby Flask",
+            "rarity": "Magic",
+            "ilvl": 85,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Lasts {0} Seconds",
+                    "values": [
+                        [
+                            "5.70",
+                            1
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "Consumes {0} of {1} Charges on use",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ],
+                        [
+                            "50",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "Currently has {0} Charges",
+                    "values": [
+                        [
+                            "50",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "utilityMods": [
+                "+5% to maximum Fire Resistance",
+                "+40% to Fire Resistance"
+            ],
+            "enchantMods": [
+                "70% increased effect",
+                "Gains no Charges during Effect"
+            ],
+            "explicitMods": [
+                "29% reduced Duration",
+                "25% increased effect"
+            ],
+            "craftedMods": [
+                "30% increased Rarity of Items found during Effect"
+            ],
+            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
+            "frameType": 1,
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Flask"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwic3ludGhlc2lzZWQiOnRydWV9XQ/8bb5f7513d/Ring6.png",
+            "league": "Mercenaries",
+            "id": "735795b79b7979468da6fc2993e99d880254341ec50ef0839c6a99ad689a5c33",
+            "synthesised": true,
+            "name": "Death Grip",
+            "typeLine": "Synthesised Sapphire Ring",
+            "baseType": "Sapphire Ring",
+            "rarity": "Rare",
+            "ilvl": 83,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality (Resistance Modifiers)",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "65",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "enchantMods": [
+                "Your Chilling Towers freeze enemies for 0.2 seconds while they are affected by chilling beams"
+            ],
+            "implicitMods": [
+                "20% increased Rarity of Items found",
+                "+1 to Maximum Frenzy Charges"
+            ],
+            "explicitMods": [
+                "+35 to Dexterity and Intelligence",
+                "Adds 20 to 43 Cold Damage to Attacks",
+                "+82 to maximum Life",
+                "+36% to Chaos Resistance",
+                "38% increased Elemental Damage with Attack Skills"
+            ],
+            "craftedMods": [
+                "16% increased Global Critical Strike Chance",
+                "+23% to Critical Strike Multiplier if you've Shattered an Enemy Recently"
+            ],
+            "frameType": 2,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Ring"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9SYWxha2VzaHNJbXBhdGllbmNlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/54540f0f3d/RalakeshsImpatience.png",
+            "league": "Mercenaries",
+            "id": "49a63c6f49c75a26c70597bd3801d93a69106cf7d790baded1eef77ffa4f6996",
+            "influences": {
+                "shaper": true
+            },
+            "shaper": true,
             "sockets": [
                 {
                     "group": 0,
@@ -18,36 +232,26 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "sColour": "R"
                 },
                 {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
+                    "group": 1,
                     "attr": "D",
                     "sColour": "G"
                 },
                 {
                     "group": 1,
-                    "attr": "D",
-                    "sColour": "G"
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 2,
+                    "attr": "I",
+                    "sColour": "B"
                 }
             ],
-            "name": "Spirit Keep",
-            "typeLine": "Exquisite Leather",
-            "baseType": "Exquisite Leather",
-            "rarity": "Rare",
-            "ilvl": 64,
+            "name": "Ralakesh's Impatience",
+            "typeLine": "Riveted Boots",
+            "baseType": "Riveted Boots",
+            "rarity": "Unique",
+            "ilvl": 85,
             "identified": true,
             "properties": [
                 {
@@ -62,15 +266,26 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "type": 6
                 },
                 {
-                    "name": "Evasion Rating",
+                    "name": "Armour",
                     "values": [
                         [
-                            "1829",
+                            "78",
                             1
                         ]
                     ],
                     "displayMode": 0,
-                    "type": 17
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "17",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
                 }
             ],
             "requirements": [
@@ -78,7 +293,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "name": "Level",
                     "values": [
                         [
-                            "68",
+                            "72",
                             0
                         ]
                     ],
@@ -90,7 +305,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "name": "Str",
                     "values": [
                         [
-                            "68",
+                            "100",
                             0
                         ]
                     ],
@@ -102,670 +317,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "name": "Dex",
                     "values": [
                         [
-                            "170",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 64
-                },
-                {
-                    "name": "Int",
-                    "values": [
-                        [
-                            "47",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 65,
-                    "suffix": "(gem)"
-                }
-            ],
-            "implicitMods": [
-                "Melee Hits have 7% chance to Fortify",
-                "13% increased effect of Offerings"
-            ],
-            "explicitMods": [
-                "47% increased Evasion Rating",
-                "+113 to maximum Life",
-                "+38% to Fire Resistance",
-                "21% increased Stun and Block Recovery"
-            ],
-            "craftedMods": [
-                "+268 to Evasion Rating"
-            ],
-            "frameType": 2,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "BodyArmour",
-            "socketedItems": [
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1JlZHVjZWRNYW5hQ29zdCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/f9f7503054/ReducedManaCost.png",
-                    "support": true,
-                    "league": "Phrecia",
-                    "id": "376943180019e0dbeea36c2d6ed9a6293fef2c92339441f4ed6935e585dd5f5a",
-                    "name": "",
-                    "typeLine": "Inspiration Support",
-                    "baseType": "Inspiration Support",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Critical, Support",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost & Reservation Multiplier",
-                            "values": [
-                                [
-                                    "120%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Str",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 63
-                        },
-                        {
-                            "name": "Int",
-                            "values": [
-                                [
-                                    "47",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 65
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "87782006/211508743",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.42,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports any skill. Minions, Totems, Traps and Mines cannot gain Inspiration Charges.",
-                    "explicitMods": [
-                        "Supported Skills have 34% less Mana Cost",
-                        "Gain an Inspiration Charge when you Spend Mana on Upfront\nCosts or Effects of Supported Skills",
-                        "Lose all Inspiration Charges after Spending a total of 730 Mana on Upfront Costs and Effects of Supported Skills",
-                        "Supported Skills deal 5% more Elemental Damage per Inspiration Charge",
-                        "Supported Skills have 8% increased Critical Strike Chance per Inspiration Charge"
-                    ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 0,
-                    "colour": "S"
-                },
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9JY2VTdHJpa2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/774fcc77d9/IceStrike.png",
-                    "support": false,
-                    "league": "Phrecia",
-                    "id": "8ec912d8b6e1e41955645ffc3e1aa8e5bddc7cac830b98e0f5c15152d27b919e",
-                    "name": "",
-                    "typeLine": "Frost Blades",
-                    "baseType": "Frost Blades",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Attack, Projectile, Melee, Strike, Cold",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost",
-                            "values": [
-                                [
-                                    "10 Mana",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Attack Damage",
-                            "values": [
-                                [
-                                    "388.2% of base",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Effectiveness of Added Damage",
-                            "values": [
-                                [
-                                    "388%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Quality",
-                            "values": [
-                                [
-                                    "+20%",
-                                    1
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 6
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "67",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Dex",
-                            "values": [
-                                [
-                                    "148",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 64
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "202335649/242081556",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.84,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Attack enemies with increased range, releasing icy blades from the first enemy hit which fly at other enemies. Requires a Melee Weapon.",
-                    "explicitMods": [
-                        "Fires 10 Projectiles",
-                        "60% of Physical Damage Converted to Cold Damage",
-                        "+2.1 metres to Melee Strike Range"
-                    ],
-                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 1,
-                    "colour": "D"
-                },
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L05pZ2h0YmxhZGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/ffa3ac8f49/Nightblade.png",
-                    "support": true,
-                    "league": "Phrecia",
-                    "id": "5cff376295ccd6f2300d0168956537648ebb774dd59875fb57c4716623bcf297",
-                    "name": "",
-                    "typeLine": "Nightblade Support",
-                    "baseType": "Nightblade Support",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Attack, Critical, Support",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost & Reservation Multiplier",
-                            "values": [
-                                [
-                                    "140%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Dex",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 64
-                        },
-                        {
-                            "name": "Int",
-                            "values": [
-                                [
-                                    "47",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 65
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "94698717/212002638",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.45,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports attack skills. Cannot support skills which create minions.",
-                    "explicitMods": [
-                        "Supported Skills grant Elusive on Critical Strike",
-                        "Supported Skills have +1% to Critical Strike Chance while Elusive",
-                        "36% increased Effect of Elusive from Supported Skills",
-                        "Elusive from Supported Skills also grants +136% to Critical Strike Multiplier for\nSkills Supported by Nightblade",
-                        "Supported Skills can only be used with Claws or Daggers"
-                    ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 2,
-                    "colour": "D"
-                },
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0FkZGVkQ29sZERhbWFnZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/2da648ff1b/AddedColdDamage.png",
-                    "support": true,
-                    "league": "Phrecia",
-                    "id": "04504d5c54a6deaabaa64dceaff76f521e2a339a4a22ad868ed1879b3e84b3c7",
-                    "name": "",
-                    "typeLine": "Added Cold Damage Support",
-                    "baseType": "Added Cold Damage Support",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Cold, Support",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost & Reservation Multiplier",
-                            "values": [
-                                [
-                                    "120%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "67",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Dex",
-                            "values": [
-                                [
-                                    "106",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 64
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "152335649/242078618",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.63,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports any skill that hits enemies.",
-                    "explicitMods": [
-                        "Supported Skills have 132 to 198 added Cold Damage"
-                    ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 3,
-                    "colour": "D"
-                },
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0NvbGRQZW5ldHJhdGlvbiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/bf21e6828c/ColdPenetration.png",
-                    "support": true,
-                    "league": "Phrecia",
-                    "id": "195e621ecc8d7f1368d9ddd1b304e0fa7ca4b95ce9c7afee8591179efde65cd7",
-                    "name": "",
-                    "typeLine": "Cold Penetration Support",
-                    "baseType": "Cold Penetration Support",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Cold, Support",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost & Reservation Multiplier",
-                            "values": [
-                                [
-                                    "130%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Dex",
-                            "values": [
-                                [
-                                    "108",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 64
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "87782006/211508743",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.42,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports any skill that hits enemies, making those hits penetrate enemy cold resistance.",
-                    "explicitMods": [
-                        "Supported Skills Penetrate 33% Cold Resistance"
-                    ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 4,
-                    "colour": "D"
-                }
-            ]
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 3,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL1doaXRlV2luZCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/48866b1c7f/WhiteWind.png",
-            "league": "Phrecia",
-            "id": "abd9c22e205bded044da6c238ff671be32be1f652905127f3d514fc5b2a24d97",
-            "sockets": [
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "I",
-                    "sColour": "B"
-                }
-            ],
-            "name": "White Wind",
-            "typeLine": "Imperial Skean",
-            "baseType": "Imperial Skean",
-            "rarity": "Unique",
-            "ilvl": 69,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Rune Dagger",
-                    "values": [],
-                    "displayMode": 0
-                },
-                {
-                    "name": "Quality",
-                    "values": [
-                        [
-                            "+17%",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 6
-                },
-                {
-                    "name": "Physical Damage",
-                    "values": [
-                        [
-                            "21-85",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 9
-                },
-                {
-                    "name": "Elemental Damage",
-                    "values": [
-                        [
-                            "172-282",
-                            5
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 10
-                },
-                {
-                    "name": "Critical Strike Chance",
-                    "values": [
-                        [
-                            "8.00%",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 12
-                },
-                {
-                    "name": "Attacks per Second",
-                    "values": [
-                        [
-                            "1.72",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 13
-                },
-                {
-                    "name": "Weapon Range: {0} metre",
-                    "values": [
-                        [
-                            "1",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3,
-                    "type": 14
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "69",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Dex",
-                    "values": [
-                        [
-                            "151",
+                            "111",
                             0
                         ]
                     ],
@@ -777,50 +329,49 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "name": "Int",
                     "values": [
                         [
-                            "131",
+                            "159",
                             0
                         ]
                     ],
                     "displayMode": 1,
-                    "type": 65
+                    "type": 65,
+                    "suffix": "(gem)"
                 }
             ],
-            "implicitMods": [
-                "30% increased Global Critical Strike Chance"
-            ],
             "explicitMods": [
-                "Adds 172 to 282 Cold Damage",
-                "15% increased Attack Speed",
-                "+1461 to Evasion Rating",
-                "140% increased Cold Damage while your Off Hand is empty",
-                "+40% chance to Suppress Spell Damage while your Off Hand is empty"
+                "+19% to Cold Resistance",
+                "+25% to Chaos Resistance",
+                "15% increased Movement Speed",
+                "Corrupted Blood cannot be inflicted on you",
+                "Count as having maximum number of Endurance Charges"
             ],
             "flavourText": [
-                "The Maraketh fear very little, \r",
-                "but they dare not whisper the name\r",
-                "of the demon that flies on Winter's gales."
+                "The Master of a Million Faces lived by one\r",
+                "simple ethos: why make the effort, when\r",
+                "you can simply mimic what others have?"
             ],
             "frameType": 3,
             "x": 0,
             "y": 0,
-            "inventoryId": "Weapon",
+            "inventoryId": "Boots",
             "socketedItems": [
                 {
                     "verified": false,
                     "w": 1,
                     "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9IYXN0ZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/e0a8c148fc/Haste.png",
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9CbG9vZFNhbmRBcm1vdXJHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4789b92480/BloodSandArmourGem.png",
                     "support": false,
-                    "league": "Phrecia",
-                    "id": "8db0a29cf62b12dbf24fdcf057abbc2aef73c897fbc1fd366929ca9ac96c884d",
+                    "league": "Mercenaries",
+                    "id": "131be4be651a5fa62f273a01db76eb7cb5d0710fbbfc07e54eddacb0f150ebad",
                     "name": "",
-                    "typeLine": "Haste",
-                    "baseType": "Haste",
+                    "typeLine": "Flesh and Stone",
+                    "baseType": "Flesh and Stone",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
-                            "name": "Aura, Spell, AoE",
+                            "name": "Spell, Aura, AoE, Stance, Physical",
                             "values": [],
                             "displayMode": 0
                         },
@@ -828,7 +379,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "19",
+                                    "21 (Max)",
                                     0
                                 ]
                             ],
@@ -839,7 +390,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Reservation",
                             "values": [
                                 [
-                                    "50% Mana",
+                                    "25% Mana",
                                     0
                                 ]
                             ],
@@ -849,7 +400,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cooldown Time",
                             "values": [
                                 [
-                                    "1.20 sec",
+                                    "2.00 sec",
                                     0
                                 ]
                             ],
@@ -871,7 +422,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "68",
+                                    "72",
                                     0
                                 ]
                             ],
@@ -879,10 +430,21 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 62
                         },
                         {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "100",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        },
+                        {
                             "name": "Dex",
                             "values": [
                                 [
-                                    "151",
+                                    "70",
                                     0
                                 ]
                             ],
@@ -890,31 +452,17 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 64
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "45795920/211877683",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.22,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Casts an aura that increases the movement speed, attack speed and cast speed of you and your allies.",
+                    "secDescrText": "Buffs you, and affects nearby enemies with an aura, differently depending on your stance. Both stances are more impactful against enemies closer to you. Using the skill again alternates between Blood Stance and Sand Stance.",
                     "explicitMods": [
-                        "+1.8 metres to radius",
-                        "You and nearby allies gain 16% increased Movement Speed",
-                        "You and nearby allies gain 24% increased Cast Speed",
-                        "You and nearby allies gain 24% increased Attack Speed"
+                        "Base Aura radius is 2.8 metres",
+                        "53% increased Cooldown Recovery Rate",
+                        "While in Blood Stance, Aura makes Enemies take up to 20% more Physical Damage from Hits",
+                        "While in Sand Stance, Buff makes you take up to 20% less Damage from Enemies in Aura"
                     ],
                     "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
                     "frameType": 4,
                     "socket": 0,
-                    "colour": "D"
+                    "colour": "S"
                 },
                 {
                     "verified": false,
@@ -922,8 +470,8 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "h": 1,
                     "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L01hcmtPbkhpdHRpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/082becefa3/MarkOnHitting.png",
                     "support": true,
-                    "league": "Phrecia",
-                    "id": "97f89877d6ec954c58967826555e5629c4724620e26e15f981c5ab6ad4cd9ad0",
+                    "league": "Mercenaries",
+                    "id": "51fa906a9a9cfc37fd50393a477c3e98c52164d91d1f038d3063e6eed9aac588",
                     "name": "",
                     "typeLine": "Mark On Hit Support",
                     "baseType": "Mark On Hit Support",
@@ -939,7 +487,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "19",
+                                    "20 (Max)",
                                     0
                                 ]
                             ],
@@ -965,6 +513,17 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                                 ]
                             ],
                             "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
                         }
                     ],
                     "requirements": [
@@ -972,7 +531,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "69",
+                                    "70",
                                     0
                                 ]
                             ],
@@ -983,7 +542,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Dex",
                             "values": [
                                 [
-                                    "109",
+                                    "111",
                                     0
                                 ]
                             ],
@@ -991,23 +550,9 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 64
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "58829628/157405063",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.37,
-                            "type": 20
-                        }
-                    ],
                     "secDescrText": "Supports mark curse skills.",
                     "explicitMods": [
-                        "21% reduced Effect of Marks from Supported Skills",
+                        "16% reduced Effect of Marks from Supported Skills",
                         "Trigger Supported Skill when you Hit a Rare or Unique Enemy with an Attack"
                     ],
                     "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
@@ -1021,13 +566,14 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "h": 1,
                     "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9Bc3Nhc3NpbnNNYXJrIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/4d097e1260/AssassinsMark.png",
                     "support": false,
-                    "league": "Phrecia",
-                    "id": "bd9e3b16fa759790662d2c9977605405cbd2fcb8b0e2a5dc39e5c87b8c0d86fc",
+                    "league": "Mercenaries",
+                    "id": "419a6646a16f5d9000d15dc0775c446db8d5a9c596e5bc3bce2c59823bebdc6a",
                     "name": "",
                     "typeLine": "Assassin's Mark",
                     "baseType": "Assassin's Mark",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
                             "name": "Critical, Spell, Curse, Mark",
@@ -1038,7 +584,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "19",
+                                    "20 (Max)",
                                     0
                                 ]
                             ],
@@ -1049,7 +595,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cost",
                             "values": [
                                 [
-                                    "32 Mana",
+                                    "33 Mana",
                                     0
                                 ]
                             ],
@@ -1064,6 +610,17 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                                 ]
                             ],
                             "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
                         }
                     ],
                     "requirements": [
@@ -1071,7 +628,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "68",
+                                    "70",
                                     0
                                 ]
                             ],
@@ -1082,7 +639,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Dex",
                             "values": [
                                 [
-                                    "66",
+                                    "68",
                                     0
                                 ]
                             ],
@@ -1091,672 +648,26 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                         },
                         {
                             "name": "Int",
-                            "values": [
-                                [
-                                    "95",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 65
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "121831417/212023122",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.57,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Curses a single enemy, making them more vulnerable to Critical Strikes. Killing the cursed enemy will grant life and mana, and a power charge. You can only have one Mark at a time.",
-                    "explicitMods": [
-                        "Cursed enemies have a 100% chance to grant a Power Charge when slain",
-                        "Hits against Cursed Enemies have +1.5% to Critical Strike Chance",
-                        "Hits against Cursed Enemies have +48% to Critical Strike Multiplier",
-                        "Cursed enemies grant 576 Life when Killed",
-                        "Cursed enemies grant 77 Mana when Killed"
-                    ],
-                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 2,
-                    "colour": "I"
-                }
-            ],
-            "incubatedItem": {
-                "name": "Fossil Item",
-                "level": 68,
-                "progress": 6559,
-                "total": 8617
-            }
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRmxhc2tzL1ByaXNtYXRpY1NhcCIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/81563db8c1/PrismaticSap.png",
-            "league": "Phrecia",
-            "id": "a470b5d7688a0991addc604acdc348d63fd8ebad47f56468ff6699534c0c966b",
-            "name": "",
-            "typeLine": "Sustained Prismatic Tincture of Skill",
-            "baseType": "Prismatic Tincture",
-            "rarity": "Magic",
-            "ilvl": 21,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Inflicts Mana Burn every {0} Seconds",
-                    "values": [
-                        [
-                            "0.83",
-                            1
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "{0} Second Cooldown when Deactivated",
-                    "values": [
-                        [
-                            "8",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "18",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "implicitMods": [
-                "81% increased Elemental Damage with Melee Weapons"
-            ],
-            "explicitMods": [
-                "16% reduced Mana Burn rate",
-                "18% increased Melee Weapon Attack Speed"
-            ],
-            "descrText": "Right click to activate. Only one Tincture in your belt can be active at a time. Mana Burn causes you to lose 1% of your maximum Mana per stack per second. Can be deactivated manually, or will automatically deactivate when you reach 0 Mana.",
-            "frameType": 1,
-            "x": 4,
-            "y": 0,
-            "inventoryId": "Flask"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-            "league": "Phrecia",
-            "id": "0bc47341a8d6fb3252e16058dac1b52dd935035262dc1e553f56a2c90013656f",
-            "name": "",
-            "typeLine": "Startled Divine Life Flask of Alleviation",
-            "baseType": "Divine Life Flask",
-            "rarity": "Magic",
-            "ilvl": 69,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Recovers {0} Life over {1} Seconds",
-                    "values": [
-                        [
-                            "1704",
-                            1
-                        ],
-                        [
-                            "3.50",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Consumes {0} of {1} Charges on use",
-                    "values": [
-                        [
-                            "15",
-                            0
-                        ],
-                        [
-                            "45",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Currently has {0} Charges",
-                    "values": [
-                        [
-                            "45",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "60",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "explicitMods": [
-                "29% reduced Amount Recovered",
-                "Instant Recovery when on Low Life",
-                "Grants Immunity to Bleeding for 11 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood"
-            ],
-            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
-            "frameType": 1,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Flask"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
-            "league": "Phrecia",
-            "id": "855d7b9435506d569308a5d88260ddb6bf28a0eac6695cbfce9530d48cd780b7",
-            "name": "Mind Circle",
-            "typeLine": "Two-Stone Ring",
-            "baseType": "Two-Stone Ring",
-            "rarity": "Rare",
-            "ilvl": 74,
-            "identified": true,
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "64",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "implicitMods": [
-                "+14% to Fire and Lightning Resistances"
-            ],
-            "explicitMods": [
-                "+45 to Strength",
-                "+21 to maximum Energy Shield",
-                "+105 to maximum Life",
-                "+12% to Fire Resistance",
-                "+44% to Cold Resistance"
-            ],
-            "craftedMods": [
-                "Non-Channelling Skills have -6 to Total Mana Cost"
-            ],
-            "frameType": 2,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Ring2"
-        },
-        {
-            "verified": false,
-            "w": 2,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4SW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/060b6ea395/GlovesDexInt3.png",
-            "league": "Phrecia",
-            "id": "a6607d33650a758f746a0688aee72dce0951ddd6512a7416677a155d6061b2b4",
-            "sockets": [
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "S",
-                    "sColour": "R"
-                },
-                {
-                    "group": 0,
-                    "attr": "I",
-                    "sColour": "B"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                }
-            ],
-            "name": "Foe Knuckle",
-            "typeLine": "Murder Mitts",
-            "baseType": "Murder Mitts",
-            "rarity": "Rare",
-            "ilvl": 75,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Quality",
-                    "values": [
-                        [
-                            "+20%",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 6
-                },
-                {
-                    "name": "Evasion Rating",
-                    "values": [
-                        [
-                            "166",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 17
-                },
-                {
-                    "name": "Energy Shield",
-                    "values": [
-                        [
-                            "34",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 18
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "68",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Str",
-                    "values": [
-                        [
-                            "108",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 63,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Dex",
-                    "values": [
-                        [
-                            "95",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 64,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Int",
-                    "values": [
-                        [
-                            "108",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 65,
-                    "suffix": "(gem)"
-                }
-            ],
-            "explicitMods": [
-                "+35 to maximum Mana",
-                "+27% to Fire Resistance",
-                "+35% to Lightning Resistance",
-                "+20% to Chaos Resistance"
-            ],
-            "craftedMods": [
-                "+59 to maximum Life"
-            ],
-            "frameType": 2,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Gloves",
-            "socketedItems": [
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9BY2N1cmFjeWFuZENyaXRpY2FsQ2hhbmNlQXVyYSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/e8f00e99b6/AccuracyandCriticalChanceAura.png",
-                    "support": false,
-                    "league": "Phrecia",
-                    "id": "87de78003d9221965f97b38e95beeebd9cd07eb46401822673886c15d5f5c827",
-                    "name": "",
-                    "typeLine": "Precision",
-                    "baseType": "Precision",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Aura, Critical, Spell, AoE",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "14",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Reservation",
-                            "values": [
-                                [
-                                    "135 Mana",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Cooldown Time",
-                            "values": [
-                                [
-                                    "1.20 sec",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Cast Time",
-                            "values": [
-                                [
-                                    "Instant",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "54",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Dex",
-                            "values": [
-                                [
-                                    "93",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 64
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "3070912/3070912",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 1,
-                            "type": 20
-                        }
-                    ],
-                    "nextLevelRequirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "57",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Dex",
                             "values": [
                                 [
                                     "98",
                                     0
                                 ]
                             ],
-                            "displayMode": 1
-                        }
-                    ],
-                    "secDescrText": "Casts an aura that grants accuracy and critical strike chance to you and your allies.",
-                    "explicitMods": [
-                        "+1.3 metres to radius",
-                        "You and nearby allies gain 46% increased Critical Strike Chance",
-                        "You and nearby allies gain +516 to Accuracy Rating"
-                    ],
-                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 0,
-                    "colour": "D"
-                },
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0Jsb29kTWFnaWMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/f90e23f319/BloodMagic.png",
-                    "support": true,
-                    "league": "Phrecia",
-                    "id": "aa67cf3efa89a168e6fae939ad9c5d7d6aaa90110082f4269acc484ac0fb8f8d",
-                    "name": "",
-                    "typeLine": "Arrogance Support",
-                    "baseType": "Arrogance Support",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Aura, Support",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost & Reservation Multiplier",
-                            "values": [
-                                [
-                                    "202%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Str",
-                            "values": [
-                                [
-                                    "108",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 63
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "45795920/211508743",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.22,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports any non-blessing skill with a reservation.",
-                    "explicitMods": [
-                        "Supported Skills have 19% increased Aura effect",
-                        "Supported Skills Reserve Life instead of Mana"
-                    ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 1,
-                    "colour": "S"
-                },
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0luY3JlYXNlZENyaXRpY2FsRGFtYWdlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/74164474d1/IncreasedCriticalDamage.png",
-                    "support": true,
-                    "league": "Phrecia",
-                    "id": "6b437b84172055edbb93c78ff8a778fa2680f0449464c4949ea02bb585516e62",
-                    "name": "",
-                    "typeLine": "Increased Critical Damage Support",
-                    "baseType": "Increased Critical Damage Support",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Critical, Support",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost & Reservation Multiplier",
-                            "values": [
-                                [
-                                    "130%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Int",
-                            "values": [
-                                [
-                                    "108",
-                                    0
-                                ]
-                            ],
                             "displayMode": 1,
                             "type": 65
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "21296456/212002638",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.1,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports any skill that hits enemies.",
+                    "secDescrText": "Curses a single enemy, making them more vulnerable to Critical Strikes. Killing the cursed enemy will grant life and mana, and a power charge. You can only have one Mark at a time.",
                     "explicitMods": [
-                        "Supported Skills have +136% to Critical Strike Multiplier"
+                        "Cursed enemies have a 100% chance to grant a Power Charge when slain",
+                        "Hits against Cursed Enemies have +1.5% to Critical Strike Chance",
+                        "Hits against Cursed Enemies have +49% to Critical Strike Multiplier",
+                        "Cursed enemies grant 600 Life when Killed",
+                        "Cursed enemies grant 80 Mana when Killed",
+                        "Cursed Enemies have a 5% chance to grant a Power Charge when Hit"
                     ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
                     "frameType": 4,
                     "socket": 2,
                     "colour": "I"
@@ -1765,1099 +676,16 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "verified": false,
                     "w": 1,
                     "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9WYWFsR2Vtcy9WYWFsTGlnaHRuaW5nU3RyaWtlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/17893bfa02/VaalLightningStrike.png",
-                    "support": false,
-                    "league": "Phrecia",
-                    "id": "029944d59c8d92fa2ff18979ca55d888cf706659bbb5d0d44dd0bc6025183fb5",
-                    "name": "",
-                    "typeLine": "Vaal Lightning Strike",
-                    "baseType": "Vaal Lightning Strike",
-                    "ilvl": 0,
-                    "identified": true,
-                    "corrupted": true,
-                    "properties": [
-                        {
-                            "name": "Attack, Melee, Strike, Duration, Vaal, Lightning, Projectile",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost",
-                            "values": [
-                                [
-                                    "10 Mana",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Attack Damage",
-                            "values": [
-                                [
-                                    "437.3% of base",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Effectiveness of Added Damage",
-                            "values": [
-                                [
-                                    "437%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Dex",
-                            "values": [
-                                [
-                                    "95",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 64
-                        },
-                        {
-                            "name": "Int",
-                            "values": [
-                                [
-                                    "66",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 65
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "71632410/212046017",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.34,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is released from the weapon as projectiles as you strike, flying out to hit farther-away enemies. The projectiles cannot miss if the melee attack hit a target.",
-                    "explicitMods": [
-                        "50% of Physical Damage Converted to Lightning Damage",
-                        "Fires 3 Projectiles"
-                    ],
-                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 3,
-                    "colour": "D",
-                    "hybrid": {
-                        "isVaalGem": true,
-                        "baseTypeName": "Lightning Strike",
-                        "properties": [
-                            {
-                                "name": "Souls Per Use",
-                                "values": [
-                                    [
-                                        "20",
-                                        0
-                                    ]
-                                ],
-                                "displayMode": 0
-                            },
-                            {
-                                "name": "Can Store {0} Uses",
-                                "values": [
-                                    [
-                                        "2",
-                                        0
-                                    ]
-                                ],
-                                "displayMode": 3
-                            },
-                            {
-                                "name": "Soul Gain Prevention",
-                                "values": [
-                                    [
-                                        "8 sec",
-                                        0
-                                    ]
-                                ],
-                                "displayMode": 0
-                            },
-                            {
-                                "name": "Attack Damage",
-                                "values": [
-                                    [
-                                        "228.1% of base",
-                                        0
-                                    ]
-                                ],
-                                "displayMode": 0
-                            },
-                            {
-                                "name": "Effectiveness of Added Damage",
-                                "values": [
-                                    [
-                                        "228%",
-                                        0
-                                    ]
-                                ],
-                                "displayMode": 0
-                            }
-                        ],
-                        "explicitMods": [
-                            "50% of Physical Damage Converted to Lightning Damage",
-                            "Base duration is 6.00 seconds",
-                            "Fires 9 Projectiles",
-                            "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-                            "Can't be Evaded"
-                        ],
-                        "secDescrText": "Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy becomes an orb attached to the enemy you hit, or the ground if you don't hit an enemy. The orb will periodically fire projectiles at other nearby enemies for a duration, which will also damage the enemy the orb is attached to."
-                    }
-                }
-            ],
-            "incubatedItem": {
-                "name": "Item",
-                "level": 68,
-                "progress": 3283,
-                "total": 8719
-            }
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
-            "league": "Phrecia",
-            "id": "aeeed39a15129e700756fa53dbcfb1e98f180b8154d7380b5486e38267096893",
-            "name": "",
-            "typeLine": "Transgressor's Granite Flask of Turf Moss",
-            "baseType": "Granite Flask",
-            "rarity": "Magic",
-            "ilvl": 30,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Lasts {0} Seconds",
-                    "values": [
-                        [
-                            "6",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Consumes {0} of {1} Charges on use",
-                    "values": [
-                        [
-                            "30",
-                            0
-                        ],
-                        [
-                            "60",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Currently has {0} Charges",
-                    "values": [
-                        [
-                            "60",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "27",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "utilityMods": [
-                "+1500 to Armour"
-            ],
-            "explicitMods": [
-                "Gain 1 Charge when you are Hit by an Enemy",
-                "40% chance to Avoid being Shocked during Effect"
-            ],
-            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
-            "frameType": 1,
-            "x": 3,
-            "y": 0,
-            "inventoryId": "Flask"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 3,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL0RhZ2dlcjQiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/954af836f7/Dagger4.png",
-            "league": "Phrecia",
-            "id": "d67aadf96a8595860627b510334d46ab9552b2aa87ee9eae6fc1276727a43942",
-            "sockets": [
-                {
-                    "group": 0,
-                    "attr": "I",
-                    "sColour": "B"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                }
-            ],
-            "name": "Hypnotic Needle",
-            "typeLine": "Ambusher",
-            "baseType": "Ambusher",
-            "rarity": "Rare",
-            "ilvl": 62,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Dagger",
-                    "values": [],
-                    "displayMode": 0
-                },
-                {
-                    "name": "Physical Damage",
-                    "values": [
-                        [
-                            "19-74",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 9
-                },
-                {
-                    "name": "Elemental Damage",
-                    "values": [
-                        [
-                            "27-49",
-                            5
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 10
-                },
-                {
-                    "name": "Critical Strike Chance",
-                    "values": [
-                        [
-                            "9.36%",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 12
-                },
-                {
-                    "name": "Attacks per Second",
-                    "values": [
-                        [
-                            "1.50",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 13
-                },
-                {
-                    "name": "Weapon Range: {0} metre",
-                    "values": [
-                        [
-                            "1",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3,
-                    "type": 14
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "60",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                },
-                {
-                    "name": "Dex",
-                    "values": [
-                        [
-                            "113",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 64
-                },
-                {
-                    "name": "Int",
-                    "values": [
-                        [
-                            "113",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 65
-                }
-            ],
-            "implicitMods": [
-                "30% increased Global Critical Strike Chance"
-            ],
-            "explicitMods": [
-                "+28 to Intelligence",
-                "Adds 27 to 49 Cold Damage",
-                "20% increased Critical Strike Chance",
-                "+31% to Global Critical Strike Multiplier"
-            ],
-            "frameType": 2,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Weapon2",
-            "socketedItems": []
-        },
-        {
-            "verified": false,
-            "w": 2,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9DbGF3cy9DbGF3NyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/9efad90cdb/Claw7.png",
-            "league": "Phrecia",
-            "id": "bbbfb811f8aed870e82a4dc21f54bc8d102895e2a949f93ebe6444880e97ab37",
-            "sockets": [
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "S",
-                    "sColour": "R"
-                },
-                {
-                    "group": 1,
-                    "attr": "I",
-                    "sColour": "B"
-                }
-            ],
-            "name": "Plague Hunger",
-            "typeLine": "Sparkling Claw",
-            "baseType": "Sparkling Claw",
-            "rarity": "Rare",
-            "ilvl": 30,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Claw",
-                    "values": [],
-                    "displayMode": 0
-                },
-                {
-                    "name": "Physical Damage",
-                    "values": [
-                        [
-                            "18-49",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 9
-                },
-                {
-                    "name": "Elemental Damage",
-                    "values": [
-                        [
-                            "23-39",
-                            4
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 10
-                },
-                {
-                    "name": "Critical Strike Chance",
-                    "values": [
-                        [
-                            "7.00%",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 12
-                },
-                {
-                    "name": "Attacks per Second",
-                    "values": [
-                        [
-                            "1.60",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 13
-                },
-                {
-                    "name": "Weapon Range: {0} metres",
-                    "values": [
-                        [
-                            "1.1",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3,
-                    "type": 14
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "68",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Str",
-                    "values": [
-                        [
-                            "68",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 63,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Dex",
-                    "values": [
-                        [
-                            "64",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 64
-                },
-                {
-                    "name": "Int",
-                    "values": [
-                        [
-                            "47",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 65,
-                    "suffix": "(gem)"
-                }
-            ],
-            "implicitMods": [
-                "Grants 15 Life per Enemy Hit"
-            ],
-            "explicitMods": [
-                "+9 to Dexterity",
-                "28% increased Physical Damage",
-                "Adds 23 to 39 Fire Damage",
-                "+40 to maximum Mana",
-                "+49 to Accuracy Rating"
-            ],
-            "frameType": 2,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Offhand2",
-            "socketedItems": [
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1dlYXBvbkVsZW1lbnRhbERhbWFnZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/2cfbdc80b2/WeaponElementalDamage.png",
-                    "support": true,
-                    "league": "Phrecia",
-                    "id": "d676f362d546c8afb724630a52cd607d60cb7e65e33d7ba2b70ad8ebbf0deba5",
-                    "name": "",
-                    "typeLine": "Elemental Damage with Attacks Support",
-                    "baseType": "Elemental Damage with Attacks Support",
-                    "ilvl": 0,
-                    "identified": true,
-                    "properties": [
-                        {
-                            "name": "Attack, Support",
-                            "values": [],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "19",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 5
-                        },
-                        {
-                            "name": "Cost & Reservation Multiplier",
-                            "values": [
-                                [
-                                    "130%",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        }
-                    ],
-                    "requirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0,
-                            "type": 62
-                        },
-                        {
-                            "name": "Str",
-                            "values": [
-                                [
-                                    "68",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 63
-                        },
-                        {
-                            "name": "Int",
-                            "values": [
-                                [
-                                    "47",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 65
-                        }
-                    ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "78060355/212002638",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.37,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports attack skills.",
-                    "explicitMods": [
-                        "Supported Attack Skills deal 33% more Elemental Damage"
-                    ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
-                    "frameType": 4,
-                    "socket": 1,
-                    "colour": "S"
-                }
-            ]
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/98bf48b8dd/diamond.png",
-            "league": "Phrecia",
-            "id": "ba8c4603f505385d7df71b3fa5cc21710e68e1b90054c460050a2309ba84cfcb",
-            "name": "",
-            "typeLine": "Scholar's Diamond Flask of Piercing",
-            "baseType": "Diamond Flask",
-            "rarity": "Magic",
-            "ilvl": 54,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Lasts {0} Seconds",
-                    "values": [
-                        [
-                            "6",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Consumes {0} of {1} Charges on use",
-                    "values": [
-                        [
-                            "16",
-                            1
-                        ],
-                        [
-                            "40",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Currently has {0} Charges",
-                    "values": [
-                        [
-                            "40",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "27",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "utilityMods": [
-                "100% increased Global Critical Strike Chance"
-            ],
-            "explicitMods": [
-                "17% reduced Charges per use",
-                "35% increased Critical Strike Chance during Effect"
-            ],
-            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
-            "frameType": 1,
-            "x": 2,
-            "y": 0,
-            "inventoryId": "Flask"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
-            "league": "Phrecia",
-            "id": "463340adcf3c5f2c9acea5f001bc61c01cae15f8cbef6b782582f6d31de465d6",
-            "name": "",
-            "typeLine": "Specialist's Jade Flask of the Plover",
-            "baseType": "Jade Flask",
-            "rarity": "Magic",
-            "ilvl": 72,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Lasts {0} Seconds",
-                    "values": [
-                        [
-                            "6",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Consumes {0} of {1} Charges on use",
-                    "values": [
-                        [
-                            "30",
-                            0
-                        ],
-                        [
-                            "60",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                },
-                {
-                    "name": "Currently has {0} Charges",
-                    "values": [
-                        [
-                            "60",
-                            0
-                        ]
-                    ],
-                    "displayMode": 3
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "49",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "utilityMods": [
-                "+1500 to Evasion Rating"
-            ],
-            "explicitMods": [
-                "26% chance to gain a Flask Charge when you deal a Critical Strike",
-                "39% reduced Effect of Shock on you during Effect"
-            ],
-            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
-            "frameType": 1,
-            "x": 1,
-            "y": 0,
-            "inventoryId": "Flask"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9NZXRhbW9ycGhvc2lzQW11bGV0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f8bdb14091/MetamorphosisAmulet.png",
-            "league": "Phrecia",
-            "id": "a5c54c2a5a553128365ce8e40c884a2e9ecc84443c7f6585ef388842847403dd",
-            "name": "Fury Valve",
-            "typeLine": "Turquoise Amulet",
-            "baseType": "Turquoise Amulet",
-            "rarity": "Unique",
-            "ilvl": 56,
-            "identified": true,
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "40",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "implicitMods": [
-                "+23 to Dexterity and Intelligence"
-            ],
-            "explicitMods": [
-                "24% increased Evasion Rating",
-                "+20% to all Elemental Resistances",
-                "Skills fire 2 additional Projectiles",
-                "24% increased Projectile Speed",
-                "Modifiers to number of Projectiles instead apply\nto the number of targets Projectiles Split towards"
-            ],
-            "flavourText": [
-                "A single act of anger travels countless paths of destruction."
-            ],
-            "frameType": 3,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Amulet",
-            "incubatedItem": {
-                "name": "Unique Item",
-                "level": 68,
-                "progress": 3283,
-                "total": 4374
-            }
-        },
-        {
-            "verified": false,
-            "w": 2,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUGVyc2VydmVyYW5jZSIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/1ff634248a/Perserverance.png",
-            "league": "Phrecia",
-            "id": "6a4686ca25c9762d4af84e2ea3fa7123fa3770b9a4160b560a03b61b5647ae31",
-            "name": "Perseverance",
-            "typeLine": "Vanguard Belt",
-            "baseType": "Vanguard Belt",
-            "rarity": "Unique",
-            "ilvl": 75,
-            "identified": true,
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "78",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "implicitMods": [
-                "+311 to Armour and Evasion Rating"
-            ],
-            "explicitMods": [
-                "8% increased maximum Life",
-                "+36% to Cold Resistance",
-                "1% increased Attack Damage per 200 of the lowest of Armour and Evasion Rating",
-                "Melee Hits which Stun Fortify",
-                "You have Onslaught while Fortified"
-            ],
-            "flavourText": [
-                "\"Some blows must be evaded. Some blows must be endured.\r",
-                "The trick is to tell them apart.\"\r",
-                "- Daresso, the Sword King"
-            ],
-            "frameType": 3,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Belt"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGhlVGFtaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/17c5d3d74b/TheTaming.png",
-            "league": "Phrecia",
-            "id": "8bbe2c45e44667377aefe0dbe4196f8d9bc2da5b49741aa5c5b02768b2a4794d",
-            "name": "The Taming",
-            "typeLine": "Prismatic Ring",
-            "baseType": "Prismatic Ring",
-            "rarity": "Unique",
-            "ilvl": 48,
-            "identified": true,
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "30",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                }
-            ],
-            "implicitMods": [
-                "+8% to all Elemental Resistances"
-            ],
-            "explicitMods": [
-                "+23% to all Elemental Resistances",
-                "10% chance to Freeze, Shock and Ignite",
-                "32% increased Elemental Damage with Hits and Ailments for\neach type of Elemental Ailment on Enemy"
-            ],
-            "flavourText": [
-                "\"Moon after moon did Berek make fools\r",
-                "Of the great and Untamed Three\r",
-                "Until malice for a Brother\r",
-                "Slew the hatred of the Other\r",
-                "And Berek did hunt\r",
-                "Alone and free.\"\r",
-                "- Berek and the Untamed"
-            ],
-            "frameType": 3,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Ring"
-        },
-        {
-            "verified": false,
-            "w": 2,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleEludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/bad1ba72df/BootsDexInt4.png",
-            "league": "Phrecia",
-            "id": "1827921fe09a4a318f9c06d8f1101118b9b03ea259315910f22e28275cb54acf",
-            "sockets": [
-                {
-                    "group": 0,
-                    "attr": "I",
-                    "sColour": "B"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                },
-                {
-                    "group": 0,
-                    "attr": "S",
-                    "sColour": "R"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
-                }
-            ],
-            "name": "Plague Spark",
-            "typeLine": "Murder Boots",
-            "baseType": "Murder Boots",
-            "rarity": "Rare",
-            "ilvl": 74,
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Evasion Rating",
-                    "values": [
-                        [
-                            "271",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 17
-                },
-                {
-                    "name": "Energy Shield",
-                    "values": [
-                        [
-                            "27",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 18
-                }
-            ],
-            "requirements": [
-                {
-                    "name": "Level",
-                    "values": [
-                        [
-                            "69",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 62
-                },
-                {
-                    "name": "Str",
-                    "values": [
-                        [
-                            "109",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 63,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Dex",
-                    "values": [
-                        [
-                            "151",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 64,
-                    "suffix": "(gem)"
-                },
-                {
-                    "name": "Int",
-                    "values": [
-                        [
-                            "42",
-                            0
-                        ]
-                    ],
-                    "displayMode": 1,
-                    "type": 65
-                }
-            ],
-            "explicitMods": [
-                "29% increased Evasion and Energy Shield",
-                "+119 to maximum Life",
-                "+30% to Cold Resistance",
-                "+41% to Lightning Resistance",
-                "13% increased Stun and Block Recovery"
-            ],
-            "craftedMods": [
-                "18% increased Movement Speed",
-                "12% chance to gain Onslaught for 4 seconds on Kill"
-            ],
-            "frameType": 2,
-            "x": 0,
-            "y": 0,
-            "inventoryId": "Boots",
-            "socketedItems": [
-                {
-                    "verified": false,
-                    "w": 1,
-                    "h": 1,
                     "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9Gcm9zdGJsaW5rU2tpbGxHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/03a84470ab/FrostblinkSkillGem.png",
                     "support": false,
-                    "league": "Phrecia",
-                    "id": "87b2a709686beef3626dbd886988fbd0b1f197cdc7d4d043a1cf619646ff22f2",
+                    "league": "Mercenaries",
+                    "id": "f47c1e2bc92e37026acd27c7539fb7cffa765bf07bd0909abae71475d3e221e0",
                     "name": "",
                     "typeLine": "Frostblink",
                     "baseType": "Frostblink",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
                             "name": "Spell, Movement, Duration, Cold, Travel, Blink, AoE",
@@ -2868,7 +696,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "1",
+                                    "21 (Max)",
                                     0
                                 ]
                             ],
@@ -2879,7 +707,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cost",
                             "values": [
                                 [
-                                    "12 Mana",
+                                    "23 Mana",
                                     0
                                 ]
                             ],
@@ -2889,7 +717,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cooldown Time",
                             "values": [
                                 [
-                                    "3.00 sec",
+                                    "2.60 sec",
                                     0
                                 ]
                             ],
@@ -2919,7 +747,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Effectiveness of Added Damage",
                             "values": [
                                 [
-                                    "180%",
+                                    "250%",
                                     0
                                 ]
                             ],
@@ -2931,7 +759,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "4",
+                                    "72",
                                     0
                                 ]
                             ],
@@ -2942,7 +770,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Int",
                             "values": [
                                 [
-                                    "16",
+                                    "159",
                                     0
                                 ]
                             ],
@@ -2950,69 +778,320 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 65
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "841/841",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 1,
-                            "type": 20
-                        }
-                    ],
-                    "nextLevelRequirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "6",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Int",
-                            "values": [
-                                [
-                                    "20",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1
-                        }
-                    ],
                     "secDescrText": "Teleport to a location, damaging enemies and leaving Chilled ground in an area at both ends of the teleport. Shares a cooldown with other Blink skills.",
                     "explicitMods": [
-                        "Deals 9 to 14 Cold Damage",
+                        "Deals 1287 to 1931 Cold Damage",
                         "Base duration is 3.00 seconds",
-                        "15% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n80% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area"
+                        "+0.4 metres to radius",
+                        "20% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n100% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area",
+                        "40% increased maximum travel distance"
                     ],
                     "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
                     "frameType": 4,
-                    "socket": 0,
+                    "socket": 3,
                     "colour": "I"
+                }
+            ]
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9Zb2tlT2ZTdWZmZXJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/80cc716213/YokeOfSuffering.png",
+            "league": "Mercenaries",
+            "id": "f39f45bae1a6386df11e34556e4c68d45826cdcce50f8784ca33e3d82324eb16",
+            "name": "Yoke of Suffering",
+            "typeLine": "Onyx Amulet",
+            "baseType": "Onyx Amulet",
+            "rarity": "Unique",
+            "ilvl": 86,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality (Attribute Modifiers)",
+                    "values": [
+                        [
+                            "+19%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "enchantMods": [
+                "Allocates Sione's Ambition"
+            ],
+            "implicitMods": [
+                "+19 to all Attributes"
+            ],
+            "explicitMods": [
+                "+12% to Fire Resistance",
+                "+12% to Cold Resistance",
+                "+40% to Lightning Resistance",
+                "30% reduced Duration of Ailments on Enemies",
+                "8% chance to Shock",
+                "Enemies take 10% increased Damage for each type of Ailment you have inflicted on them",
+                "Your Elemental Damage can Shock"
+            ],
+            "flavourText": [
+                "Let the unrepentant be dragged ever downwards by the weight of their sins."
+            ],
+            "frameType": 3,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Amulet"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvdG9wYXoiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZzIjp0cnVlfV0/dfefd757a4/topaz.png",
+            "league": "Mercenaries",
+            "id": "cf026c74dd20658a6da823d5c6f8a3119a7eccfd3d77502daf7d7534ae93b490",
+            "name": "",
+            "typeLine": "Dabbler's Topaz Flask of the Owl",
+            "baseType": "Topaz Flask",
+            "rarity": "Magic",
+            "ilvl": 84,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Lasts {0} Seconds",
+                    "values": [
+                        [
+                            "5.40",
+                            1
+                        ]
+                    ],
+                    "displayMode": 3
                 },
+                {
+                    "name": "Consumes {0} of {1} Charges on use",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ],
+                        [
+                            "50",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "Currently has {0} Charges",
+                    "values": [
+                        [
+                            "50",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "utilityMods": [
+                "+5% to maximum Lightning Resistance",
+                "+40% to Lightning Resistance"
+            ],
+            "enchantMods": [
+                "70% increased effect",
+                "Gains no Charges during Effect"
+            ],
+            "explicitMods": [
+                "32% reduced Duration",
+                "25% increased effect",
+                "62% reduced Effect of Curses on you during Effect"
+            ],
+            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
+            "frameType": 1,
+            "x": 3,
+            "y": 0,
+            "inventoryId": "Flask"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/01471b423e/GlovesStrDex3.png",
+            "league": "Mercenaries",
+            "id": "86ff351c8406692242cace4ca640863c0b330e6d2a885848344cf1e57a0c24cc",
+            "influences": {
+                "hunter": true,
+                "warlord": true
+            },
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Corruption Talons",
+            "typeLine": "Wyrmscale Gauntlets",
+            "baseType": "Wyrmscale Gauntlets",
+            "rarity": "Rare",
+            "ilvl": 85,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "122",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "122",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "72",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62,
+                    "suffix": "(gem)"
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "155",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 63,
+                    "suffix": "(gem)"
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "159",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 64,
+                    "suffix": "(gem)"
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 65,
+                    "suffix": "(gem)"
+                }
+            ],
+            "explicitMods": [
+                "+401 to Accuracy Rating",
+                "21% increased Global Critical Strike Chance",
+                "+98 to maximum Life",
+                "+1 to Maximum Frenzy Charges",
+                "30% increased Elemental Damage if you've dealt a Critical Strike Recently",
+                "Non-Vaal Strike Skills target 1 additional nearby Enemy"
+            ],
+            "craftedMods": [
+                "+25 to Strength and Intelligence"
+            ],
+            "frameType": 2,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Gloves",
+            "socketedItems": [
                 {
                     "verified": false,
                     "w": 1,
                     "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9HcmFjZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0d4fbca4ae/Grace.png",
-                    "support": false,
-                    "league": "Phrecia",
-                    "id": "f2f95bffeac01a43537248db8da0b1bd9c881015b4d9faa0f76d2b05070fa678",
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0Nhc3RPbkRtZ1Rha2VuIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/2f075f5964/CastOnDmgTaken.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "15d8ffadd8525904969ad50c8890fbfb451d7b70d329127d346106f674c5e8b4",
                     "name": "",
-                    "typeLine": "Grace",
-                    "baseType": "Grace",
+                    "typeLine": "Cast when Damage Taken Support",
+                    "baseType": "Cast when Damage Taken Support",
                     "ilvl": 0,
                     "identified": true,
                     "properties": [
                         {
-                            "name": "Aura, Spell, AoE",
+                            "name": "Support, Spell, Trigger",
                             "values": [],
                             "displayMode": 0
                         },
@@ -3020,7 +1099,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "19",
+                                    "20 (Max)",
                                     0
                                 ]
                             ],
@@ -3028,10 +1107,10 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 5
                         },
                         {
-                            "name": "Reservation",
+                            "name": "Cost & Reservation Multiplier",
                             "values": [
                                 [
-                                    "50% Mana",
+                                    "250%",
                                     0
                                 ]
                             ],
@@ -3041,17 +1120,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cooldown Time",
                             "values": [
                                 [
-                                    "1.20 sec",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Cast Time",
-                            "values": [
-                                [
-                                    "Instant",
+                                    "0.25 sec",
                                     0
                                 ]
                             ],
@@ -3063,7 +1132,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "68",
+                                    "70",
                                     0
                                 ]
                             ],
@@ -3071,41 +1140,38 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 62
                         },
                         {
-                            "name": "Dex",
+                            "name": "Str",
                             "values": [
                                 [
-                                    "151",
+                                    "70",
                                     0
                                 ]
                             ],
                             "displayMode": 1,
-                            "type": 64
-                        }
-                    ],
-                    "additionalProperties": [
+                            "type": 63
+                        },
                         {
-                            "name": "Experience",
+                            "name": "Int",
                             "values": [
                                 [
-                                    "121831417/211877683",
+                                    "48",
                                     0
                                 ]
                             ],
-                            "displayMode": 2,
-                            "progress": 0.58,
-                            "type": 20
+                            "displayMode": 1,
+                            "type": 65
                         }
                     ],
-                    "secDescrText": "Casts an aura that grants evasion to you and your allies.",
+                    "secDescrText": "Each supported spell skill will track damage you take, and be triggered when the total damage taken reaches a threshold. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
                     "explicitMods": [
-                        "+1.8 metres to radius",
-                        "You and nearby allies gain 1401 additional Evasion Rating",
-                        "You and nearby allies gain 29% more Evasion rating"
+                        "This Gem can only Support Skill Gems requiring Level 70 or lower",
+                        "Supported Skills deal 27% less Damage",
+                        "Trigger Supported Spells when you take 3272 total Damage from Hits"
                     ],
-                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
                     "frameType": 4,
-                    "socket": 1,
-                    "colour": "D"
+                    "socket": 0,
+                    "colour": "S"
                 },
                 {
                     "verified": false,
@@ -3113,13 +1179,14 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "h": 1,
                     "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9RdWlja0d1YXJkR2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/098be34a5b/QuickGuardGem.png",
                     "support": false,
-                    "league": "Phrecia",
-                    "id": "177452a7ccf532ffc098978ec0d4a3ea729a728f406cffbb1f5b8fe4cf7d9d69",
+                    "league": "Mercenaries",
+                    "id": "8067773ed9a44ab9865e6967724d907df6515f9b45c91cdefd4c325e21d447ee",
                     "name": "",
                     "typeLine": "Steelskin",
                     "baseType": "Steelskin",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
                             "name": "Spell, Duration, Guard",
@@ -3130,7 +1197,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "13",
+                                    "20 (Max)",
                                     0
                                 ]
                             ],
@@ -3141,7 +1208,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cost",
                             "values": [
                                 [
-                                    "12 Mana",
+                                    "16 Mana",
                                     0
                                 ]
                             ],
@@ -3166,6 +1233,17 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                                 ]
                             ],
                             "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+16%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
                         }
                     ],
                     "requirements": [
@@ -3173,7 +1251,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "48",
+                                    "70",
                                     0
                                 ]
                             ],
@@ -3184,7 +1262,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Str",
                             "values": [
                                 [
-                                    "109",
+                                    "155",
                                     0
                                 ]
                             ],
@@ -3192,48 +1270,110 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 63
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "2507110/2507110",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 1,
-                            "type": 20
-                        }
+                    "secDescrText": "Applies a buff which can take some of the damage from hits for you before being depleted. Shares a cooldown with other Guard skills.",
+                    "explicitMods": [
+                        "Base duration is 1.50 seconds",
+                        "8% increased Cooldown Recovery Rate",
+                        "This Skill's Cooldown does not recover during its effect",
+                        "70% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take 2209 Damage",
+                        "Buff grants Immunity to Bleeding"
                     ],
-                    "nextLevelRequirements": [
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 1,
+                    "colour": "S"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9MZWFwU2xhbSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/d19c385b00/LeapSlam.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "c9f1b530d0eb0003c898e91b773528544225e317cb9581b65d37c3aa03b6e532",
+                    "name": "",
+                    "typeLine": "Leap Slam",
+                    "baseType": "Leap Slam",
+                    "ilvl": 0,
+                    "identified": true,
+                    "properties": [
+                        {
+                            "name": "Attack, AoE, Movement, Travel, Slam, Melee",
+                            "values": [],
+                            "displayMode": 0
+                        },
                         {
                             "name": "Level",
                             "values": [
                                 [
-                                    "52",
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost",
+                            "values": [
+                                [
+                                    "10 Mana",
                                     0
                                 ]
                             ],
                             "displayMode": 0
                         },
                         {
-                            "name": "Str",
+                            "name": "Attack Damage",
                             "values": [
                                 [
-                                    "117",
+                                    "314.5% of base",
                                     0
                                 ]
                             ],
-                            "displayMode": 1
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Effectiveness of Added Damage",
+                            "values": [
+                                [
+                                    "314%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
                         }
                     ],
-                    "secDescrText": "Applies a buff which can take some of the damage from hits for you before being depleted. Shares a cooldown with other Guard skills.",
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "155",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        }
+                    ],
+                    "secDescrText": "Jump through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff.",
                     "explicitMods": [
-                        "Base duration is 1.50 seconds",
-                        "This Skill's Cooldown does not recover during its effect",
-                        "70% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take 835 Damage",
-                        "Buff grants Immunity to Bleeding"
+                        "39% increased Stun Duration against Enemies that are on Full Life",
+                        "+0.55 seconds to Attack Time",
+                        "Base radius is 1.5 metres",
+                        "Damaging Hits always Stun Enemies that are on Full Life"
                     ],
                     "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
                     "frameType": 4,
@@ -3246,13 +1386,14 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "h": 1,
                     "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9CbG9vZFJhZ2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/199f6b772e/BloodRage.png",
                     "support": false,
-                    "league": "Phrecia",
-                    "id": "e946d64458ff5fb90505f008139fe140cbcf0caf3ff0b572cf4e4abe77797cc4",
+                    "league": "Mercenaries",
+                    "id": "2d554bfc49fa83b9b4e8a42455f8ddb3f65e055dd20b5249e61f03d282e9b370",
                     "name": "",
                     "typeLine": "Blood Rage",
                     "baseType": "Blood Rage",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
                             "name": "Spell, Duration, Physical",
@@ -3263,7 +1404,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "19",
+                                    "21 (Max)",
                                     0
                                 ]
                             ],
@@ -3274,7 +1415,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cost",
                             "values": [
                                 [
-                                    "28 Life",
+                                    "30 Life",
                                     0
                                 ]
                             ],
@@ -3299,6 +1440,17 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                                 ]
                             ],
                             "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
                         }
                     ],
                     "requirements": [
@@ -3306,7 +1458,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "68",
+                                    "72",
                                     0
                                 ]
                             ],
@@ -3317,7 +1469,282 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Dex",
                             "values": [
                                 [
-                                    "151",
+                                    "159",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 64
+                        }
+                    ],
+                    "secDescrText": "Adds a buff that deals Physical Damage over time, while increasing Attack Speed and Life Leech. Killing an enemy while this buff is active refreshes the buff duration, and can grant a Frenzy Charge.",
+                    "explicitMods": [
+                        "Base duration is 11.00 seconds",
+                        "Grants 20% increased Attack Speed",
+                        "1.2% of Attack Physical Damage Leeched as Life",
+                        "You take 4% of your Maximum Life per second as Physical Damage",
+                        "You take 4% of your Maximum Energy Shield per second as Physical Damage",
+                        "25% chance to gain a Frenzy Charge on Kill"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 3,
+                    "colour": "D"
+                }
+            ]
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2FwcGhpcmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZzIjp0cnVlfV0/e14b38eac2/sapphire.png",
+            "league": "Mercenaries",
+            "id": "92b579d731e4e4c07baf5f74a94a79eda0b47f5155064ce42aee8faa0fedbee3",
+            "name": "",
+            "typeLine": "Alchemist's Sapphire Flask of the Impala",
+            "baseType": "Sapphire Flask",
+            "rarity": "Magic",
+            "ilvl": 85,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Lasts {0} Seconds",
+                    "values": [
+                        [
+                            "6",
+                            1
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "Consumes {0} of {1} Charges on use",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ],
+                        [
+                            "50",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "Currently has {0} Charges",
+                    "values": [
+                        [
+                            "50",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "utilityMods": [
+                "+5% to maximum Cold Resistance",
+                "+40% to Cold Resistance"
+            ],
+            "enchantMods": [
+                "70% increased effect",
+                "Gains no Charges during Effect"
+            ],
+            "explicitMods": [
+                "25% reduced Duration",
+                "25% increased effect",
+                "58% increased Evasion Rating during Effect"
+            ],
+            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
+            "frameType": 1,
+            "x": 4,
+            "y": 0,
+            "inventoryId": "Flask"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 4,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9SYXBpZXJzL1JhcGllcjUiLCJ3IjoxLCJoIjo0LCJzY2FsZSI6MX1d/ccce0178cc/Rapier5.png",
+            "league": "Mercenaries",
+            "id": "2838dda1ab071224f6e5142d5b16dfb723b5323d4689c5c09611f2b71216223e",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 2,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Jagged Foil",
+            "baseType": "Jagged Foil",
+            "rarity": "Normal",
+            "ilvl": 25,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "One Handed Sword",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "12-29",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.50%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range: {0} metres",
+                    "values": [
+                        [
+                            "1.4",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "77",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 64
+                }
+            ],
+            "implicitMods": [
+                "+25% to Global Critical Strike Multiplier"
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Weapon2",
+            "socketedItems": [
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L2VuaGFuY2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9f8df30377/enhance.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "987924fbf1a34b90c9bc1949236b6248a035e5d3f17bdda71644a6f79dcac80d",
+                    "name": "",
+                    "typeLine": "Enhance Support",
+                    "baseType": "Enhance Support",
+                    "ilvl": 0,
+                    "identified": true,
+                    "properties": [
+                        {
+                            "name": "Exceptional, Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "2",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost & Reservation Multiplier",
+                            "values": [
+                                [
+                                    "120%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "10",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "21",
                                     0
                                 ]
                             ],
@@ -3330,73 +1757,200 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Experience",
                             "values": [
                                 [
-                                    "121831417/212023122",
+                                    "722988841/1439190228",
                                     0
                                 ]
                             ],
                             "displayMode": 2,
-                            "progress": 0.57,
+                            "progress": 0.5,
                             "type": 20
                         }
                     ],
-                    "secDescrText": "Adds a buff that deals Physical Damage over time, while increasing Attack Speed and Life Leech. Killing an enemy while this buff is active refreshes the buff duration, and can grant a Frenzy Charge.",
+                    "secDescrText": "Supports any skill gem. Once this gem reaches level 2 or above, will raise the quality of supported gems. Cannot support skills that don't come from gems.",
                     "explicitMods": [
-                        "Base duration is 10.60 seconds",
-                        "Grants 14% increased Attack Speed",
-                        "1.2% of Attack Physical Damage Leeched as Life",
-                        "You take 4% of your Maximum Life per second as Physical Damage",
-                        "You take 4% of your Maximum Energy Shield per second as Physical Damage",
-                        "25% chance to gain a Frenzy Charge on Kill"
+                        "+8% to Quality of Supported Skill Gems"
                     ],
-                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
                     "frameType": 4,
-                    "socket": 3,
+                    "socket": 1,
                     "colour": "D"
                 }
-            ],
-            "incubatedItem": {
-                "name": "Rare Abyss Item",
-                "level": 68,
-                "progress": 3283,
-                "total": 8719
-            }
+            ]
         },
         {
             "verified": false,
             "w": 2,
-            "h": 2,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleDciLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/e2b3ccec11/HelmetDex7.png",
-            "league": "Phrecia",
-            "id": "bad01081982d7c359f9b9a799772ed65db41a793dbc883252700e7524b2d3990",
+            "h": 3,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kQXhlcy9PbmVIYW5kQXhlNiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/01f0e16494/OneHandAxe6.png",
+            "league": "Mercenaries",
+            "id": "9af6b5ca87d603c455367f549dd7adedac594ed67abcf53dc3dbf9d74f3cdd7f",
             "sockets": [
                 {
                     "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
+                    "attr": "I",
+                    "sColour": "B"
                 },
                 {
                     "group": 0,
                     "attr": "S",
                     "sColour": "R"
-                },
-                {
-                    "group": 0,
-                    "attr": "D",
-                    "sColour": "G"
                 },
                 {
                     "group": 1,
-                    "attr": "S",
-                    "sColour": "R"
+                    "attr": "D",
+                    "sColour": "G"
                 }
             ],
-            "name": "Torment Keep",
-            "typeLine": "Ursine Pelt",
-            "baseType": "Ursine Pelt",
-            "rarity": "Rare",
-            "ilvl": 63,
+            "name": "",
+            "typeLine": "Arming Axe",
+            "baseType": "Arming Axe",
+            "rarity": "Normal",
+            "ilvl": 25,
             "identified": true,
             "properties": [
+                {
+                    "name": "One Handed Axe",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "14-42",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range: {0} metres",
+                    "values": [
+                        [
+                            "1.1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "25",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "58",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 63
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "33",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 64
+                }
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Offhand2",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kU3dvcmRzL1Jha2lhdGFTd29yZCIsInciOjIsImgiOjQsInNjYWxlIjoxfV0/ec593eeaa8/RakiataSword.png",
+            "league": "Mercenaries",
+            "id": "458942ee2cae27b0a475c6b1af8b88f8ced6dfd43a32dc3b0ecd26a64b8f2c9c",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                }
+            ],
+            "name": "Rakiata's Dance",
+            "typeLine": "Engraved Greatsword",
+            "baseType": "Engraved Greatsword",
+            "rarity": "Unique",
+            "ilvl": 83,
+            "identified": true,
+            "corrupted": true,
+            "properties": [
+                {
+                    "name": "Two Handed Sword",
+                    "values": [],
+                    "displayMode": 0
+                },
                 {
                     "name": "Quality",
                     "values": [
@@ -3409,15 +1963,63 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "type": 6
                 },
                 {
-                    "name": "Evasion Rating",
+                    "name": "Physical Damage",
                     "values": [
                         [
-                            "414",
+                            "49-102",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Elemental Damage",
+                    "values": [
+                        [
+                            "198-337",
+                            5
+                        ],
+                        [
+                            "1-577",
+                            6
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 10
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.59",
                             1
                         ]
                     ],
                     "displayMode": 0,
-                    "type": 17
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range: {0} metres",
+                    "values": [
+                        [
+                            "1.3",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3,
+                    "type": 14
                 }
             ],
             "requirements": [
@@ -3425,7 +2027,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "name": "Level",
                     "values": [
                         [
-                            "68",
+                            "72",
                             0
                         ]
                     ],
@@ -3437,7 +2039,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "name": "Str",
                     "values": [
                         [
-                            "105",
+                            "114",
                             0
                         ]
                     ],
@@ -3454,13 +2056,14 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                         ]
                     ],
                     "displayMode": 1,
-                    "type": 64
+                    "type": 64,
+                    "suffix": "(gem)"
                 },
                 {
                     "name": "Int",
                     "values": [
                         [
-                            "66",
+                            "72",
                             0
                         ]
                     ],
@@ -3469,34 +2072,44 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                     "suffix": "(gem)"
                 }
             ],
-            "explicitMods": [
-                "+50 to Evasion Rating",
-                "+119 to maximum Life",
-                "+17% to Fire Resistance",
-                "+39% to Lightning Resistance",
-                "12% increased Stun and Block Recovery"
+            "enchantMods": [
+                "Quality does not increase Physical Damage",
+                "1% increased Attack Speed per 8% Quality"
             ],
-            "frameType": 2,
+            "implicitMods": [
+                "60% increased Global Accuracy Rating"
+            ],
+            "explicitMods": [
+                "Adds 198 to 337 Cold Damage",
+                "Adds 1 to 577 Lightning Damage",
+                "20% increased Attack Speed",
+                "Treats Enemy Monster Elemental Resistance values as inverted"
+            ],
+            "flavourText": [
+                "In the shifting reflections of the sea, the truth of the soul can be seen."
+            ],
+            "frameType": 3,
             "x": 0,
             "y": 0,
-            "inventoryId": "Helm",
+            "inventoryId": "Weapon",
             "socketedItems": [
                 {
                     "verified": false,
                     "w": 1,
                     "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9XaGlybGluZ0JsYWRlcyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/f518fbded3/WhirlingBlades.png",
-                    "support": false,
-                    "league": "Phrecia",
-                    "id": "3c1583a671594a57d77036937e3a068a2c3d67e5a8949d376183acd4b846be25",
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1RyaW5pdHlTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f547899752/TrinitySupportGem.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "d4330d931090fa7777dd971a78bf3c76a1f49521fe79f7d129bcc2287f9c6e6b",
                     "name": "",
-                    "typeLine": "Whirling Blades",
-                    "baseType": "Whirling Blades",
+                    "typeLine": "Trinity Support",
+                    "baseType": "Trinity Support",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
-                            "name": "Attack, Movement, Travel, Melee",
+                            "name": "Support",
                             "values": [],
                             "displayMode": 0
                         },
@@ -3504,7 +2117,107 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "19",
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost & Reservation Multiplier",
+                            "values": [
+                                [
+                                    "140%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "50",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 64
+                        },
+                        {
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 65
+                        }
+                    ],
+                    "secDescrText": "Supports skills that hit enemies, causing them to gain bonuses while you have resonance of all three elements, and to grant resonance of elements other than the highest one in a hit. There is a maximum of 50 Resonance for each Element. Cannot support triggered skills, instant skills, orb skills, brands, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+                    "explicitMods": [
+                        "Hits with Supported Skills for which the highest Damage Type is Elemental cause you to gain 25 Resonance of other Elements per second for 2 seconds\nLose 5 Resonance per second of each Element you are not gaining",
+                        "Supported Skills deal 3% more Elemental Damage per 5 of lowest Resonance",
+                        "Supported Skills penetrate 17% Elemental Resistances while each Resonance is at least 25",
+                        "Supported Skills deal 10% increased Elemental Damage"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 0,
+                    "colour": "I"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9WYWFsR2Vtcy9WYWFsU21pdGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwiZ2QiOjV9XQ/a50b5b8566/VaalSmite.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "c6d6c6254720858110aed03d99d1c514f94339e87acfd2b8f4965b1e32409f8f",
+                    "name": "",
+                    "typeLine": "Vaal Smite",
+                    "baseType": "Vaal Smite",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Lightning, Attack, AoE, Duration, Melee, Strike, Aura, Vaal",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
                                     0
                                 ]
                             ],
@@ -3515,7 +2228,17 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cost",
                             "values": [
                                 [
-                                    "10 Mana",
+                                    "12 Mana",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Attack Speed",
+                            "values": [
+                                [
+                                    "85% of base",
                                     0
                                 ]
                             ],
@@ -3525,7 +2248,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Attack Damage",
                             "values": [
                                 [
-                                    "301.7% of base",
+                                    "380.5% of base",
                                     0
                                 ]
                             ],
@@ -3535,7 +2258,187 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Effectiveness of Added Damage",
                             "values": [
                                 [
-                                    "301%",
+                                    "380%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "100",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        },
+                        {
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 65
+                        }
+                    ],
+                    "secDescrText": "Performs a melee attack, and causes lightning to strike nearby enemies, dealing damage in an area. Each target can only be hit once by this skill. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
+                    "explicitMods": [
+                        "50% of Physical Damage Converted to Lightning Damage",
+                        "40% more Area Damage",
+                        "Base radius is 2.2 metres",
+                        "Lightning strikes 3 targets within 7 metres"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 1,
+                    "colour": "S",
+                    "hybrid": {
+                        "isVaalGem": true,
+                        "baseTypeName": "Smite of Divine Judgement",
+                        "properties": [
+                            {
+                                "name": "Souls Per Use",
+                                "values": [
+                                    [
+                                        "20",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 0
+                            },
+                            {
+                                "name": "Can Store {0} Uses",
+                                "values": [
+                                    [
+                                        "2",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 3
+                            },
+                            {
+                                "name": "Soul Gain Prevention",
+                                "values": [
+                                    [
+                                        "6 sec",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 0
+                            },
+                            {
+                                "name": "Attack Speed",
+                                "values": [
+                                    [
+                                        "50% of base",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 0
+                            },
+                            {
+                                "name": "Attack Damage",
+                                "values": [
+                                    [
+                                        "785.5% of base",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 0
+                            },
+                            {
+                                "name": "Effectiveness of Added Damage",
+                                "values": [
+                                    [
+                                        "785%",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 0
+                            }
+                        ],
+                        "explicitMods": [
+                            "50% of Physical Damage Converted to Lightning Damage",
+                            "Base duration is 8.00 seconds",
+                            "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
+                            "Can't be Evaded",
+                            "10% more Area Damage",
+                            "Base radius is 2.2 metres",
+                            "Base Aura radius is 4.3 metres",
+                            "Lightning strikes 30 targets within 10 metres",
+                            "Aura makes Smite strike +1 target with lightning",
+                            "Aura grants 19 to 358 added Lightning Damage",
+                            "Aura grants 20% chance to Shock"
+                        ],
+                        "secDescrText": "Calls lightning down to infuse your weapon, then performs a melee attack and causes lightning to strike nearby enemies, dealing damage in an area. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+                    }
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L211bHRpcGxlYXR0YWNrcyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/49bb71ab5f/multipleattacks.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "b82a80a22915fdffabfc41d0f654060bcc1d8e0b58b2f09ec5abeb7b1ca3932b",
+                    "name": "",
+                    "typeLine": "Multistrike Support",
+                    "baseType": "Multistrike Support",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Attack, Melee, Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost & Reservation Multiplier",
+                            "values": [
+                                [
+                                    "150%",
                                     0
                                 ]
                             ],
@@ -3547,7 +2450,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "68",
+                                    "72",
                                     0
                                 ]
                             ],
@@ -3555,68 +2458,58 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 62
                         },
                         {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        },
+                        {
                             "name": "Dex",
                             "values": [
                                 [
-                                    "95",
+                                    "50",
                                     0
                                 ]
                             ],
                             "displayMode": 1,
                             "type": 64
-                        },
-                        {
-                            "name": "Int",
-                            "values": [
-                                [
-                                    "66",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1,
-                            "type": 65
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "121831417/212051599",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.57,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Dive through enemies, dealing weapon damage. If dual wielding attacks with both weapons, dealing the damage of both in one hit. Only works with Daggers, Claws, and One-Handed Swords.",
+                    "secDescrText": "Supports melee attack skills, making them repeat twice when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
                     "explicitMods": [
-                        "When Dual Wielding, Deals 75% Damage from each Weapon combined",
-                        "+0.6 seconds to Attack Time"
+                        "Supported Skills Repeat 2 additional times",
+                        "Supported Skills have 45% more Melee Attack Speed",
+                        "Supported Skills deal 19% less Attack Damage",
+                        "First Repeat of Supported Skills deals 22% more Damage",
+                        "Second Repeat of Supported Skills deals 44% more Damage"
                     ],
-                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
                     "frameType": 4,
-                    "socket": 0,
-                    "colour": "D"
+                    "socket": 2,
+                    "colour": "S"
                 },
                 {
                     "verified": false,
                     "w": 1,
                     "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0ZvcnRpZnlHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/0f54034785/FortifyGem.png",
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1ZvbGF0aWxpdHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/89efd990e3/Volatility.png",
                     "support": true,
-                    "league": "Phrecia",
-                    "id": "8b4d73a446fb8cfc24482bddf194996d69a4a1576b08628f7e69c558cd1a6050",
+                    "league": "Mercenaries",
+                    "id": "fa6fdbfaa8412767e0f8d0f73c7df2a3ee6cefaa5aa3ef3537a65a83449307cd",
                     "name": "",
-                    "typeLine": "Fortify Support",
-                    "baseType": "Fortify Support",
+                    "typeLine": "Volatility Support",
+                    "baseType": "Volatility Support",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
-                            "name": "Attack, Support, Melee",
+                            "name": "Attack, Support",
                             "values": [],
                             "displayMode": 0
                         },
@@ -3624,7 +2517,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "18",
+                                    "21 (Max)",
                                     0
                                 ]
                             ],
@@ -3647,7 +2540,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "66",
+                                    "72",
                                     0
                                 ]
                             ],
@@ -3658,7 +2551,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Str",
                             "values": [
                                 [
-                                    "105",
+                                    "114",
                                     0
                                 ]
                             ],
@@ -3666,47 +2559,33 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 63
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "58829628/62460771",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 0.94,
-                            "type": 20
-                        }
-                    ],
-                    "secDescrText": "Supports melee attack skills that are not triggered.",
+                    "secDescrText": "Supports attack skills.",
                     "explicitMods": [
-                        "Melee Hits from Supported Skills Fortify",
-                        "Supported Skills deal 18% more Damage with Ailments caused by Melee Hits",
-                        "Supported Skills deal 18% more Melee Damage"
+                        "Supported Skills deal 60% more Maximum Attack Damage",
+                        "Supported Skills deal 70% less Minimum Attack Damage"
                     ],
                     "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
                     "frameType": 4,
-                    "socket": 1,
+                    "socket": 3,
                     "colour": "S"
                 },
                 {
                     "verified": false,
                     "w": 1,
                     "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0Zhc3RlckF0dGFja3MiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c3e1544a95/FasterAttacks.png",
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0ZyZW56eUNoYXJnZU9uU2hhdHRlciIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/d172bfc06a/FrenzyChargeOnShatter.png",
                     "support": true,
-                    "league": "Phrecia",
-                    "id": "7a984d089e261e676127a91e91b3ff38cb5d60bc504c4d3460ce105b9e7d00b1",
+                    "league": "Mercenaries",
+                    "id": "2d0dff0c9af861ca03087e4649ccd132b8d81c4858837ed751583ef896c5e993",
                     "name": "",
-                    "typeLine": "Faster Attacks Support",
-                    "baseType": "Faster Attacks Support",
+                    "typeLine": "Ice Bite Support",
+                    "baseType": "Ice Bite Support",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
-                            "name": "Attack, Support",
+                            "name": "Cold, Support",
                             "values": [],
                             "displayMode": 0
                         },
@@ -3714,7 +2593,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "19",
+                                    "21 (Max)",
                                     0
                                 ]
                             ],
@@ -3725,7 +2604,96 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Cost & Reservation Multiplier",
                             "values": [
                                 [
-                                    "110%",
+                                    "120%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "114",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 64
+                        }
+                    ],
+                    "secDescrText": "Supports any skill you use to hit enemies yourself. Cannot support skills used by totems, traps, or mines.",
+                    "explicitMods": [
+                        "Supported Skills have 15% chance to Freeze",
+                        "Supported Skills have 70% chance to gain a Frenzy Charge on Killing a Frozen Enemy",
+                        "Supported Skills deal 2% increased Damage per Frenzy Charge",
+                        "Supported Skills have 76 to 114 added Cold Damage",
+                        "Supported Skills have 17 to 25 added Cold Damage per Frenzy Charge"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 4,
+                    "colour": "D"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0VuZHVyYW5jZUNoYXJnZVN0dW4iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e3b4ca1900/EnduranceChargeStun.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "a26a71bfd53c9f8c4db1caa513e2ea75ef2654845492c345ea1c9cfa4fa7e6dc",
+                    "name": "",
+                    "typeLine": "Endurance Charge on Melee Stun Support",
+                    "baseType": "Endurance Charge on Melee Stun Support",
+                    "ilvl": 0,
+                    "identified": true,
+                    "properties": [
+                        {
+                            "name": "Support, Melee, Attack",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost & Reservation Multiplier",
+                            "values": [
+                                [
+                                    "120%",
                                     0
                                 ]
                             ],
@@ -3737,7 +2705,562 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "67",
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "111",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        }
+                    ],
+                    "secDescrText": "Supports melee attack skills.",
+                    "explicitMods": [
+                        "4% more Damage per Endurance Charge",
+                        "Supported Skills have 19% reduced Enemy Stun Threshold",
+                        "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 5,
+                    "colour": "S"
+                }
+            ]
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlYXRzaGl2ZXIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/b1860c890e/Heatshiver.png",
+            "league": "Mercenaries",
+            "id": "d6142005ea5d2b5f58698dec0cdd8c1c6d9147b7dca44ff42fa43cc1116c0d4b",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Heatshiver",
+            "typeLine": "Leather Hood",
+            "baseType": "Leather Hood",
+            "rarity": "Unique",
+            "ilvl": 83,
+            "identified": true,
+            "corrupted": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+15%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "218",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "72",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62,
+                    "suffix": "(gem)"
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 63,
+                    "suffix": "(gem)"
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 64,
+                    "suffix": "(gem)"
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "159",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 65,
+                    "suffix": "(gem)"
+                }
+            ],
+            "implicitMods": [
+                "+2 to Level of Socketed Lightning Gems",
+                "+2 to Level of Socketed Aura Gems"
+            ],
+            "explicitMods": [
+                "84% increased Evasion Rating",
+                "60% increased Mana Regeneration Rate",
+                "+24% to Fire Resistance",
+                "+29% to Cold Resistance",
+                "Gain 1% of Cold Damage as Extra Fire Damage per 1% Chill Effect on Enemy",
+                "Gain 30% of Cold Damage as Extra Fire Damage against Frozen Enemies"
+            ],
+            "flavourText": [
+                "Give of your heated passions.\r",
+                "Give of your cold resolve.\r",
+                "You will be repaid."
+            ],
+            "frameType": 3,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Helm",
+            "socketedItems": [
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9MaWdodG5pbmdSZXNpc3RBdXJhIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/98fde57b81/LightningResistAura.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "6f59253b33c3f3afdf20e4cf00b96ad2851227b3998aaf36f3180c5dbfdcaa7f",
+                    "name": "",
+                    "typeLine": "Purity of Lightning",
+                    "baseType": "Purity of Lightning",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Aura, Spell, AoE, Lightning",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Reservation",
+                            "values": [
+                                [
+                                    "35% Mana",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cooldown Time",
+                            "values": [
+                                [
+                                    "1.20 sec",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cast Time",
+                            "values": [
+                                [
+                                    "Instant",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "159",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 65
+                        }
+                    ],
+                    "secDescrText": "Casts an aura that grants lightning resistance to you and your allies.",
+                    "explicitMods": [
+                        "+2 metres to radius",
+                        "You and nearby allies gain 52% additional Lightning Resistance",
+                        "You and nearby allies gain 4% additional maximum Lightning Resistance"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 0,
+                    "colour": "I"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0VubGlnaHRlbiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/05a949e270/Enlighten.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "df3adfb07e51d05dd630721dc9d1267e13f3a99d427f0e6ceff3a3879c5e55c5",
+                    "name": "",
+                    "typeLine": "Enlighten Support",
+                    "baseType": "Enlighten Support",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Exceptional, Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "3 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost & Reservation Multiplier",
+                            "values": [
+                                [
+                                    "92%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "45",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "73",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 65
+                        }
+                    ],
+                    "secDescrText": "Supports any skill gem. Once this gem reaches level 2 or above, will apply a cost & reservation multiplier to supported gems. Cannot support skills that don't come from gems.",
+                    "explicitMods": [
+                        "This Gem gains 100% increased Experience"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 1,
+                    "colour": "I"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9GaXJlUmVzaXN0QXVyYSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/c2ab10c400/FireResistAura.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "4a1830fe374f644b8e0438538b60c2a578f84ccbdee40ac51f4d6ec78a2be267",
+                    "name": "",
+                    "typeLine": "Purity of Fire",
+                    "baseType": "Purity of Fire",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Aura, Spell, AoE, Fire",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Reservation",
+                            "values": [
+                                [
+                                    "35% Mana",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cooldown Time",
+                            "values": [
+                                [
+                                    "1.20 sec",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cast Time",
+                            "values": [
+                                [
+                                    "Instant",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "100",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        },
+                        {
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 65
+                        }
+                    ],
+                    "secDescrText": "Casts an aura that grants fire resistance to you and your allies.",
+                    "explicitMods": [
+                        "+2 metres to radius",
+                        "You and nearby allies gain 52% additional Fire Resistance",
+                        "You and nearby allies gain 4% additional maximum Fire Resistance"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 2,
+                    "colour": "S"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9Db2xkUmVzaXN0QXVyYSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/563af20d28/ColdResistAura.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "879e80d847341bf115588c196c5995ab76026375546a88b518b7d117b7b4b708",
+                    "name": "",
+                    "typeLine": "Purity of Ice",
+                    "baseType": "Purity of Ice",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Aura, Spell, AoE, Cold",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Reservation",
+                            "values": [
+                                [
+                                    "35% Mana",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cooldown Time",
+                            "values": [
+                                [
+                                    "1.20 sec",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cast Time",
+                            "values": [
+                                [
+                                    "Instant",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
                                     0
                                 ]
                             ],
@@ -3748,53 +3271,360 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Dex",
                             "values": [
                                 [
-                                    "106",
+                                    "100",
                                     0
                                 ]
                             ],
                             "displayMode": 1,
                             "type": 64
-                        }
-                    ],
-                    "additionalProperties": [
+                        },
                         {
-                            "name": "Experience",
+                            "name": "Int",
                             "values": [
                                 [
-                                    "151464308/242078618",
+                                    "70",
                                     0
                                 ]
                             ],
-                            "displayMode": 2,
-                            "progress": 0.63,
-                            "type": 20
+                            "displayMode": 1,
+                            "type": 65
                         }
                     ],
-                    "secDescrText": "Supports attack skills.",
+                    "secDescrText": "Casts an aura that grants cold resistance to you and your allies.",
                     "explicitMods": [
-                        "Supported Skills have 43% increased Attack Speed"
+                        "+2 metres to radius",
+                        "You and nearby allies gain 52% additional Cold Resistance",
+                        "You and nearby allies gain 4% additional maximum Cold Resistance"
                     ],
-                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
                     "frameType": 4,
-                    "socket": 2,
+                    "socket": 3,
                     "colour": "D"
+                }
+            ]
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRmxhc2tzL1ByaXNtYXRpY1NhcCIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/81563db8c1/PrismaticSap.png",
+            "league": "Mercenaries",
+            "id": "53128960469a2cd7f0938d396c63382de6a8ba22b53646fc494b32541a5ff8e5",
+            "name": "",
+            "typeLine": "Horticultural Prismatic Tincture of Mastery",
+            "baseType": "Prismatic Tincture",
+            "rarity": "Magic",
+            "ilvl": 85,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
                 },
+                {
+                    "name": "Inflicts Mana Burn every {0} Seconds",
+                    "values": [
+                        [
+                            "0.70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "{0} Second Cooldown when Deactivated",
+                    "values": [
+                        [
+                            "8",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "implicitMods": [
+                "146% increased Elemental Damage with Melee Weapons"
+            ],
+            "explicitMods": [
+                "22% increased effect",
+                "42% increased Melee Weapon Attack Speed"
+            ],
+            "descrText": "Right click to activate. Only one Tincture in your belt can be active at a time. Mana Burn causes you to lose 1% of your maximum Mana per stack per second. Can be deactivated manually, or will automatically deactivate when you reach 0 Mana.",
+            "frameType": 1,
+            "x": 1,
+            "y": 0,
+            "inventoryId": "Flask"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 2,
+            "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmcyI6dHJ1ZX1d/4a736a5685/silver.png",
+            "league": "Mercenaries",
+            "id": "33727b6fadbc1463257e5e3c25dbd1c830ad67f861c308162f2ed3ed8f7cfc0c",
+            "name": "",
+            "typeLine": "Abecedarian's Silver Flask of Incision",
+            "baseType": "Silver Flask",
+            "rarity": "Magic",
+            "ilvl": 85,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Lasts {0} Seconds",
+                    "values": [
+                        [
+                            "3.90",
+                            1
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "Consumes {0} of {1} Charges on use",
+                    "values": [
+                        [
+                            "40",
+                            0
+                        ],
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                },
+                {
+                    "name": "Currently has {0} Charges",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "65",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "utilityMods": [
+                "Onslaught"
+            ],
+            "enchantMods": [
+                "70% increased effect",
+                "Gains no Charges during Effect"
+            ],
+            "explicitMods": [
+                "35% reduced Duration",
+                "25% increased effect",
+                "55% increased Critical Strike Chance during Effect"
+            ],
+            "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
+            "frameType": 1,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Flask"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyNEEiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZSwiZnJhY3R1cmVkIjp0cnVlfV0/2b43b58082/BodyStr4A.png",
+            "league": "Mercenaries",
+            "id": "a0d7608c0c263822a0299910fe80096d47f35c8254111c899a2c11a1a5a47cd2",
+            "searing": true,
+            "tangled": true,
+            "fractured": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Fate Salvation",
+            "typeLine": "Conquest Lamellar",
+            "baseType": "Conquest Lamellar",
+            "rarity": "Rare",
+            "ilvl": 86,
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "997",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "997",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "84",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "173",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 63
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "173",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 64
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1,
+                    "type": 65,
+                    "suffix": "(gem)"
+                }
+            ],
+            "implicitMods": [
+                "Melee Hits have 11% chance to Fortify",
+                "20% increased effect of Non-Curse Auras from your Skills"
+            ],
+            "explicitMods": [
+                "+185 to maximum Life",
+                "+33% to Chaos Resistance",
+                "35% chance to Avoid Elemental Ailments",
+                "32% chance to Avoid being Stunned",
+                "7% additional Physical Damage Reduction"
+            ],
+            "craftedMods": [
+                "8% increased maximum Life",
+                "6% increased maximum Mana"
+            ],
+            "fracturedMods": [
+                "You take 10% reduced Extra Damage from Critical Strikes per Endurance Charge"
+            ],
+            "frameType": 2,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "BodyArmour",
+            "socketedItems": [
                 {
                     "verified": false,
                     "w": 1,
                     "h": 1,
-                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9FbmR1cmluZ0NyeSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/289ef19ddf/EnduringCry.png",
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9UZWN0b25pY1NsYW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwiZ2QiOjV9XQ/51d5a34075/TectonicSlam.png",
                     "support": false,
-                    "league": "Phrecia",
-                    "id": "c622d8ad1c4d8b9ffa6fb53e729681565b64012271c0cbb0e6d235e766c49954",
+                    "league": "Mercenaries",
+                    "id": "3de8c4905e66f751455e3caf8ac4bd89a2380efbed397c315d18e10ba1f12fca",
                     "name": "",
-                    "typeLine": "Enduring Cry",
-                    "baseType": "Enduring Cry",
+                    "typeLine": "Tectonic Slam of Cataclysm",
+                    "baseType": "Tectonic Slam of Cataclysm",
                     "ilvl": 0,
                     "identified": true,
+                    "corrupted": true,
                     "properties": [
                         {
-                            "name": "Warcry, AoE, Duration",
+                            "name": "Fire, Attack, AoE, Slam, Melee",
                             "values": [],
                             "displayMode": 0
                         },
@@ -3802,7 +3632,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "2",
+                                    "21 (Max)",
                                     0
                                 ]
                             ],
@@ -3820,10 +3650,572 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "displayMode": 0
                         },
                         {
+                            "name": "Attack Speed",
+                            "values": [
+                                [
+                                    "80% of base",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Attack Damage",
+                            "values": [
+                                [
+                                    "487.8% of base",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Effectiveness of Added Damage",
+                            "values": [
+                                [
+                                    "487%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "159",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        }
+                    ],
+                    "secDescrText": "Slam the ground, consuming all Endurance Charges and unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed.",
+                    "explicitMods": [
+                        "60% of Physical Damage Converted to Fire Damage",
+                        "20% more Damage per Endurance Charge removed",
+                        "10% more Area of Effect per Endurance Charge removed",
+                        "10% fissure branching chance per Endurance Charge removed"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 0,
+                    "colour": "S"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1RyaW5pdHlTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f547899752/TrinitySupportGem.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "828960626c73fa9db022fab9e3decdb05e159001ecfb49929f3315e0b219b8ad",
+                    "name": "",
+                    "typeLine": "Trinity Support",
+                    "baseType": "Trinity Support",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "12",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost & Reservation Multiplier",
+                            "values": [
+                                [
+                                    "140%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+23%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "53",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "37",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 64
+                        },
+                        {
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "54",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 65
+                        }
+                    ],
+                    "additionalProperties": [
+                        {
+                            "name": "Experience",
+                            "values": [
+                                [
+                                    "2619530/2812189",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 2,
+                            "progress": 0.93,
+                            "type": 20
+                        }
+                    ],
+                    "secDescrText": "Supports skills that hit enemies, causing them to gain bonuses while you have resonance of all three elements, and to grant resonance of elements other than the highest one in a hit. There is a maximum of 50 Resonance for each Element. Cannot support triggered skills, instant skills, orb skills, brands, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+                    "explicitMods": [
+                        "Hits with Supported Skills for which the highest Damage Type is Elemental cause you to gain 25 Resonance of other Elements per second for 2 seconds\nLose 5 Resonance per second of each Element you are not gaining",
+                        "Supported Skills deal 3% more Elemental Damage per 5 of lowest Resonance",
+                        "Supported Skills penetrate 12% Elemental Resistances while each Resonance is at least 25",
+                        "Supported Skills deal 11% increased Elemental Damage"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 1,
+                    "colour": "I"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9BdXRvQ2FzdEluc3RhbnRXYXJjcnkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/ffc975c2b7/AutoCastInstantWarcry.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "0182ed1a3efe86dfa57c2bbb70067ebf215f1de2b3fb05d99a3233ed14baeb32",
+                    "name": "",
+                    "typeLine": "Autoexertion Support",
+                    "baseType": "Autoexertion",
+                    "ilvl": 0,
+                    "identified": true,
+                    "properties": [
+                        {
+                            "name": "Warcry, Trigger, Spell",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
                             "name": "Cooldown Time",
                             "values": [
                                 [
-                                    "8.00 sec",
+                                    "0.60 sec",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cast Time",
+                            "values": [
+                                [
+                                    "Instant",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "155",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        }
+                    ],
+                    "secDescrText": "Reserves mana based on the supported warcries to cause those warcries to be repeatedly triggered.",
+                    "explicitMods": [
+                        "Supported Warcries will Trigger when their Cooldown is over\nThis Skill's Mana Reservation is the total of the Mana Reservations of Supported Skills, and cannot be further modified"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 2,
+                    "colour": "S",
+                    "hybrid": {
+                        "baseTypeName": "Autoexertion",
+                        "properties": [
+                            {
+                                "name": "Reservation Override",
+                                "values": [
+                                    [
+                                        "15% Mana",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 0
+                            },
+                            {
+                                "name": "Cooldown Time",
+                                "values": [
+                                    [
+                                        "0.20 sec",
+                                        0
+                                    ]
+                                ],
+                                "displayMode": 0
+                            }
+                        ],
+                        "explicitMods": [
+                            "Supported Skills have 29% increased Cooldown Recovery Rate",
+                            "Supported Warcries are Triggered when their Cooldowns are over",
+                            "Supported Skills' Base Mana Cost is 10",
+                            "Supported Warcries do not grant Buffs or Charges to You or Allies"
+                        ],
+                        "secDescrText": "Supports warcry skills. Cannot support retaliation skills or modify the skills of minions."
+                    }
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0VuZHVyYW5jZUNoYXJnZVN0dW4iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e3b4ca1900/EnduranceChargeStun.png",
+                    "support": true,
+                    "league": "Mercenaries",
+                    "id": "7ff57f7a3848ba0c3e8d4786f08321186a29a28c874e05a1a63a75b603a4c169",
+                    "name": "",
+                    "typeLine": "Endurance Charge on Melee Stun Support",
+                    "baseType": "Endurance Charge on Melee Stun Support",
+                    "ilvl": 0,
+                    "identified": true,
+                    "properties": [
+                        {
+                            "name": "Support, Melee, Attack",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "12",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost & Reservation Multiplier",
+                            "values": [
+                                [
+                                    "120%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "53",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "85",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 63
+                        }
+                    ],
+                    "additionalProperties": [
+                        {
+                            "name": "Experience",
+                            "values": [
+                                [
+                                    "2619530/2812189",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 2,
+                            "progress": 0.93,
+                            "type": 20
+                        }
+                    ],
+                    "secDescrText": "Supports melee attack skills.",
+                    "explicitMods": [
+                        "4% more Damage per Endurance Charge",
+                        "Supported Skills have 11% reduced Enemy Stun Threshold",
+                        "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 3,
+                    "colour": "S"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9EZXNlY3JhdGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7e2985eec3/Desecrate.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "a164c90e856d702cc4d46bf6c5f7d3e805bab2f7421ad33f60f07ca168696b39",
+                    "name": "",
+                    "typeLine": "Desecrate",
+                    "baseType": "Desecrate",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Spell, AoE, Duration, Chaos",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost",
+                            "values": [
+                                [
+                                    "27 Mana",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cast Time",
+                            "values": [
+                                [
+                                    "0.60 sec",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 62
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "100",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 64
+                        },
+                        {
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1,
+                            "type": 65
+                        }
+                    ],
+                    "secDescrText": "Desecrates the ground, spawning corpses based on monsters in the current area and dealing chaos damage over time to enemies. If you are using the Raise Spectre skill there is a chance to spawn spectral corpses matching your most recently raised Spectres. Spectral corpses cannot be interacted with except by Minion skills.",
+                    "explicitMods": [
+                        "Deals 330 Base Chaos Damage per second",
+                        "Base duration is 4.00 seconds",
+                        "20% increased Cast Speed",
+                        "Spawns 5 corpses",
+                        "Spawned corpses' level matches the area level, up to a maximum of Level 81",
+                        "Maximum of 10 corpses allowed"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "socket": 4,
+                    "colour": "D"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9HZW5lcmFsc0NyeSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/cd520d244f/GeneralsCry.png",
+                    "support": false,
+                    "league": "Mercenaries",
+                    "id": "161bbf21b2416e77c6c19303e28fb67b9e3216de61e49eeccfdebfaba1c44ebe",
+                    "name": "",
+                    "typeLine": "General's Cry Support",
+                    "baseType": "General's Cry",
+                    "ilvl": 0,
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Warcry, AoE, Duration",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Cost",
+                            "values": [
+                                [
+                                    "20 Mana",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Cooldown Time",
+                            "values": [
+                                [
+                                    "3.00 sec",
                                     0
                                 ]
                             ],
@@ -3838,6 +4230,17 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                                 ]
                             ],
                             "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
                         }
                     ],
                     "requirements": [
@@ -3845,7 +4248,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Level",
                             "values": [
                                 [
-                                    "13",
+                                    "72",
                                     0
                                 ]
                             ],
@@ -3856,7 +4259,7 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "name": "Str",
                             "values": [
                                 [
-                                    "35",
+                                    "159",
                                     0
                                 ]
                             ],
@@ -3864,64 +4267,64 @@ const itemsResultList: ItemTypes.GetItemsResult[] = [{
                             "type": 63
                         }
                     ],
-                    "additionalProperties": [
-                        {
-                            "name": "Experience",
-                            "values": [
-                                [
-                                    "28189/28189",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 2,
-                            "progress": 1,
-                            "type": 20
-                        }
-                    ],
-                    "nextLevelRequirements": [
-                        {
-                            "name": "Level",
-                            "values": [
-                                [
-                                    "17",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 0
-                        },
-                        {
-                            "name": "Str",
-                            "values": [
-                                [
-                                    "43",
-                                    0
-                                ]
-                            ],
-                            "displayMode": 1
-                        }
-                    ],
-                    "secDescrText": "Performs a warcry, taunting all nearby enemies to attack the user and granting a buff to the user and nearby allies. The user and allied players also gain endurance charges.",
+                    "secDescrText": "Performs a warcry, taunting nearby enemies to attack the user, and summoning Mirage Warriors from nearby corpses. The Mirage Warriors each use a linked attack skill once before dissipating.",
                     "explicitMods": [
-                        "Base duration is 2.50 seconds",
-                        "2% increased Warcry Speed",
-                        "Counts total Power of Enemies in Range",
-                        "Grants 1 Endurance Charge per 5 Power to you and Allied Players",
-                        "Buff grants 2% of Life Regenerated per second per\n5 power, counting a maximum of 25 Power"
+                        "Base duration is 5.00 seconds",
+                        "40% increased Warcry Speed",
+                        "Maximum 6 Summoned Mirage Warriors",
+                        "Counts total Power of Enemies and Corpses in Range",
+                        "Summons Mirage Warriors from 2 corpses per 5 Power, minimum 1 corpse"
                     ],
                     "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
                     "frameType": 4,
-                    "socket": 3,
-                    "colour": "S"
+                    "socket": 5,
+                    "colour": "S",
+                    "hybrid": {
+                        "baseTypeName": "General's Cry",
+                        "explicitMods": [
+                            "Supported Strike Skills cannot target additional Enemies",
+                            "Attacks with Supported Skills count as Exerted",
+                            "Supported Skills deal 50% less Damage",
+                            "Supported Skills are used by Mirage Warriors Summoned by General's Cry\nSupported Skills count as Triggered"
+                        ],
+                        "secDescrText": "Supports melee attack skills. Those skills will be used by Mirage Warriors summoned by General's Cry. Supported skills cannot be supported by Multistrike."
+                    }
                 }
             ]
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTWlycm9yUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJkdXBsaWNhdGVkIjp0cnVlfV0/2cbd02eced/MirrorRing.png",
+            "league": "Mercenaries",
+            "id": "ccb2acf002e077b5573b21a07aa4332b17fbbaff2026f11abd3e0259935385ef",
+            "name": "Kalandra's Touch",
+            "typeLine": "Ring",
+            "baseType": "Ring",
+            "rarity": "Unique",
+            "ilvl": 86,
+            "identified": true,
+            "duplicated": true,
+            "explicitMods": [
+                "Reflects your other Ring"
+            ],
+            "flavourText": [
+                "On one hand, you have a choice.\r",
+                "On the other, you have its twin."
+            ],
+            "frameType": 3,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Ring2"
         }
     ],
     "character": {
-        "name": "Sleepy_Focus_Krillson",
+        "name": "DeportedbeforeMaps",
         "realm": "pc",
-        "class": "Blind Prophet",
-        "league": "Phrecia",
-        "level": 90
+        "class": "Slayer",
+        "league": "Mercenaries",
+        "level": 99
     }
 }
 ];

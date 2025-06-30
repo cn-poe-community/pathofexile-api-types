@@ -1,8 +1,8 @@
 {
   "name": "pathofexile-api-types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript definitions for Path of Exile APIs.",
-  "main":"",
+  "main": "",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",

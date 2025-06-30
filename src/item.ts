@@ -16,6 +16,7 @@ export interface Item {
     league: string;
     id: string;
     isRelic?: boolean;
+    foilVariation?: number;
     searing?: boolean,
     tangled?: boolean,
     influences?: Influences;
@@ -113,7 +114,7 @@ export interface Gem extends Item {
 export interface Hybrid {
     isVaalGem?: boolean;
     baseTypeName: string;
-    properties: Property[];
+    properties?: Property[];
     explicitMods: string[];
     secDescrText: string;
 }

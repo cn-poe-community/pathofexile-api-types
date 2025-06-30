@@ -59,11 +59,23 @@ export interface SkillOverride {
     name: string;
     icon: string;
     activeEffectImage: string;
+    /**
+     * subset isXXX properties are used to determine the type of skill, only exists in matched type
+     */
     isKeystone?: boolean;
-    isTattoo: boolean;
+    isTattoo?: boolean;
+    isMastery?: boolean;
     stats: string[];
     reminderText?: string[];
     flavorText?: string;
+    /**
+     * only used for Mastery skills
+     */
+    inactiveIcon?: string;
+    /**
+     * only used for Mastery skills
+     */
+    activeIcon?: string;
 }
 
 export interface MasteryEffects { [key: string]: number }
