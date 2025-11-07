@@ -14,7 +14,7 @@ export interface Item {
     h: number;
     icon: string;
     league: string;
-    id: string;
+    id?: string; // only grafts skills without id
     isRelic?: boolean;
     foilVariation?: number;
     searing?: boolean,
@@ -59,6 +59,8 @@ export interface Item {
     inventoryId?: string;
     socketedItems?: SocketedItem[];
     incubatedItem?: unknown;
+    mutated?: boolean;
+    mutatedMods?: string[];
 }
 
 export interface Influences {
@@ -104,7 +106,7 @@ export interface Property {
 }
 
 export interface Gem extends Item {
-    support: boolean;
+    support?: boolean; // only grafts skills without support
     additionalProperties?: Property[];
     secDescrText: string;
     nextLevelRequirements?: Property[];
@@ -147,7 +149,7 @@ export type EquippedItem = Equipped & Item;
 
 export type SocketedGem = Socketed & Gem;
 export type SocketedAbyssJewel = Socketed & AbyssJewel;
-export type SocketedItem = SocketedGem | SocketedAbyssJewel;
+export type SocketedItem = SocketedGem | SocketedAbyssJewel | Gem; // Gem only for grafts skills
 
 export type GetItemsResult = {
     items: Item[];

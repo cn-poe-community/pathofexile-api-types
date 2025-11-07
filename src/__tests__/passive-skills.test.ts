@@ -1,357 +1,158 @@
 import { PassiveSkillTypes } from "..";
 
-const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
-    "character": 4,
-    "ascendancy": 1,
-    "alternate_ascendancy": 0,
+const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [
+{
+    "character": 3,
+    "ascendancy": 3,
+    "alternate_ascendancy": 9,
     "hashes": [
-        903,
-        1325,
+        857,
         1461,
-        1568,
-        1698,
-        2715,
-        3314,
         4269,
-        4378,
-        4656,
-        5237,
-        5408,
-        5632,
-        6108,
-        6580,
+        4367,
+        4492,
+        5296,
         6797,
-        9206,
-        10143,
-        11497,
-        11651,
-        11859,
-        12412,
+        7069,
+        8638,
+        8948,
+        9469,
+        10115,
+        10495,
+        10843,
+        11455,
+        11490,
+        11551,
+        11689,
+        12913,
+        13753,
+        13862,
         14292,
-        14813,
-        16079,
-        16213,
-        16306,
-        17201,
-        17315,
-        17383,
-        17934,
-        18302,
+        15117,
+        15167,
+        15711,
+        15852,
+        16141,
+        16243,
+        18182,
+        18309,
+        18769,
         18770,
-        19069,
-        19196,
-        19711,
-        19858,
+        19008,
+        19501,
+        20528,
         20807,
-        22217,
-        22266,
-        22356,
-        23066,
-        23237,
+        20844,
+        21033,
+        21075,
+        21678,
+        21984,
+        22315,
+        22618,
+        22972,
         23334,
-        23471,
+        23509,
+        23572,
+        24362,
+        24426,
+        24872,
         25260,
-        25933,
-        26528,
+        25411,
+        25789,
+        27163,
+        27592,
         27656,
+        27733,
         27788,
-        29185,
-        29359,
+        27879,
+        27929,
         29454,
-        29547,
-        29856,
-        29933,
-        30679,
-        31291,
-        31471,
-        32059,
-        32555,
-        32657,
+        29781,
+        32210,
         32681,
         32763,
-        34009,
-        34031,
-        34483,
-        34678,
-        36221,
+        33310,
+        33374,
+        34506,
+        35038,
         36287,
-        36764,
-        37504,
-        39338,
-        39725,
-        40132,
-        40170,
+        36858,
+        38176,
+        38805,
+        38900,
+        39521,
         40362,
-        41866,
-        42104,
-        42293,
-        42443,
-        44316,
-        45283,
-        45696,
+        41476,
+        42795,
+        42804,
+        43000,
+        44184,
+        44924,
         46277,
-        46495,
-        46882,
-        48438,
-        48614,
-        48807,
-        48859,
-        49621,
-        49806,
+        46904,
+        47767,
+        48514,
+        48719,
+        48878,
+        49605,
+        49651,
+        49820,
         49900,
-        49971,
-        50845,
-        54127,
-        54354,
-        55348,
+        50472,
+        51146,
+        51524,
+        51953,
+        52031,
+        52848,
+        53456,
+        53828,
+        54452,
+        55114,
         55880,
-        56001,
+        56066,
+        56128,
+        56158,
         56295,
-        56589,
-        57080,
-        58271,
-        58803,
-        58851,
-        58854,
-        58921,
-        59866,
+        57226,
+        58210,
+        59220,
+        60388,
+        60440,
+        60547,
         60735,
-        61393,
+        61419,
+        61653,
         61834,
-        62588,
+        62217,
         62744,
-        62817,
+        63067,
+        63228,
         63251,
-        63649,
-        63727,
-        64882
+        63447,
+        63944,
+        65502
     ],
     "hashes_ex": [
-        40,
-        42,
-        46,
-        48,
-        50,
-        157,
-        161,
-        163,
-        165,
-        167
+        198,
+        200,
+        202,
+        204,
+        206
     ],
     "mastery_effects": {
-        "32657": 48980,
-        "31291": 50922,
-        "48859": 64875,
-        "44316": 47642,
-        "40170": 23936,
-        "39338": 35582,
-        "55348": 64511,
-        "46495": 28638,
-        "62588": 64381
+        "53828": 42540,
+        "56128": 26785,
+        "4492": 52604,
+        "857": 31556,
+        "16141": 62252,
+        "10495": 64642,
+        "35038": 63280,
+        "27733": 23471,
+        "49820": 45317,
+        "13862": 64875
     },
     "skill_overrides": {
-        "44316": {
-            "name": "Runegraft of Treachery",
-            "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon20.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png",
-            "isMastery": true,
-            "inactiveIcon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon20.png",
-            "activeIcon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon20.png",
-            "stats": [
-                "15% increased Reservation Efficiency of Skills",
-                "Auras from your Skills which affect Allies also affect Enemies"
-            ]
-        },
-        "32555": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "29937": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "6363": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "5237": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "23471": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "5408": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "6580": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "56589": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "12412": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "20807": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "36287": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "1461": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "49900": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "11497": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "49806": {
-            "name": "Tattoo of the Tasalio Tideshifter",
-            "icon": "Art/2DArt/SkillIcons/passives/stundex.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "10% chance to Avoid being Stunned"
-            ]
-        },
-        "22266": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "30679": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "14292": {
-            "name": "Tattoo of the Ramako Shaman",
-            "icon": "Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png",
-            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png",
-            "isTattoo": true,
-            "stats": [
-                "+2% chance to Suppress Spell Damage"
-            ],
-            "reminderText": [
-                "(50% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
-            ]
-        },
-        "63649": {
+        "46277": {
             "name": "Tattoo of the Tasalio Warrior",
             "icon": "Art/2DArt/SkillIcons/passives/AttackBlindNode.png",
             "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png",
@@ -363,19 +164,26 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
                 "(Being Blinded causes 20% less Accuracy Rating and Evasion Rating, for 4 seconds)"
             ]
         },
-        "62588": {
-            "name": "Runegraft of the Warp",
-            "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon11.png",
+        "27733": {
+            "name": "Runegraft of Refraction",
+            "icon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon7.png",
             "activeEffectImage": "Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png",
             "isMastery": true,
-            "inactiveIcon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon11.png",
-            "activeIcon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon11.png",
+            "inactiveIcon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon7.png",
+            "activeIcon": "Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon7.png",
             "stats": [
-                "Buffs on you expire 30% slower",
-                "Debuffs on you expire 30% faster"
-            ],
-            "reminderText": [
-                "(Effects cannot be slowed below 25% of their normal expiry rate)"
+                "Fire at most 1 Projectile",
+                "Skills Chain +1 times",
+                "Projectiles Fork"
+            ]
+        },
+        "56295": {
+            "name": "Tattoo of the Valako Stormrider",
+            "icon": "Art/2DArt/SkillIcons/passives/LightningResistNode.png",
+            "activeEffectImage": "Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/ValakoTribePassiveBG.png",
+            "isTattoo": true,
+            "stats": [
+                "+6% to Lightning Resistance"
             ]
         }
     },
@@ -384,41 +192,46 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
             "verified": false,
             "w": 1,
             "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL05ld0dlbUJhc2UzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/db35e60885/NewGemBase3.png",
-            "league": "Mercenaries",
-            "id": "8386a683aa79080194406ddc68fc92e43b0e14313ef4a469a7b189968bed0fa4",
-            "name": "Ghoul Bliss",
-            "typeLine": "Large Cluster Jewel",
-            "baseType": "Large Cluster Jewel",
-            "rarity": "Rare",
-            "ilvl": 83,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL0FmZmxpY3Rpb25KZXdlbCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0794886e1c/AfflictionJewel.png",
+            "league": "Keepers",
+            "id": "6e7c2f456b6dab9e2a5d81f2be852e8e34af8ddc41a25cad62f8b0666eed373b",
+            "name": "The Light of Meaning",
+            "typeLine": "Prismatic Jewel",
+            "baseType": "Prismatic Jewel",
+            "rarity": "Unique",
+            "ilvl": 85,
             "identified": true,
-            "requirements": [
+            "properties": [
                 {
-                    "name": "Level",
+                    "name": "Limited to",
                     "values": [
                         [
-                            "40",
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Large",
                             0
                         ]
                     ],
                     "displayMode": 0,
-                    "type": 62
+                    "type": 24
                 }
             ],
-            "enchantMods": [
-                "Adds 8 Passive Skills",
-                "2 Added Passive Skills are Jewel Sockets",
-                "Added Small Passive Skills grant: Axe Attacks deal 12% increased Damage with Hits and Ailments\nAdded Small Passive Skills grant: Sword Attacks deal 12% increased Damage with Hits and Ailments"
-            ],
             "explicitMods": [
-                "Added Small Passive Skills also grant: +3% to Chaos Resistance",
-                "1 Added Passive Skill is Calamitous",
-                "1 Added Passive Skill is Fuel the Fight",
-                "1 Added Passive Skill is Martial Prowess"
+                "Passive Skills in Radius also grant 6% increased Chaos Damage"
             ],
-            "descrText": "Place into an allocated Large Jewel Socket on the Passive Skill Tree. Added passives do not interact with jewel radiuses. Right click to remove from the Socket.",
-            "frameType": 2,
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "To name a thing is to give it power."
+            ],
+            "frameType": 3,
             "x": 17,
             "y": 0,
             "inventoryId": "PassiveJewels"
@@ -427,114 +240,14 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
             "verified": false,
             "w": 1,
             "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL0Nvbm5lY3RlZEpld2VsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/1d2c1f698a/ConnectedJewel.png",
-            "league": "Mercenaries",
-            "id": "bd18b70c201f55450b14b467cc0f062ce600b4b91c71c4620444d8b735d14b6d",
-            "name": "Thread of Hope",
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1B1enpsZVBpZWNlSmV3ZWxfQ2xlYW5zaW5nRmlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/ddfe57ac90/PuzzlePieceJewel_CleansingFire.png",
+            "league": "Keepers",
+            "id": "7ff57e87ec4020d1c27a60df50b7c62f3d5c5fdbc9b8573e0678847e5a6bd38d",
+            "name": "Forbidden Flame",
             "typeLine": "Crimson Jewel",
             "baseType": "Crimson Jewel",
             "rarity": "Unique",
-            "ilvl": 80,
-            "identified": true,
-            "corrupted": true,
-            "properties": [
-                {
-                    "name": "Radius",
-                    "values": [
-                        [
-                            "Variable",
-                            1
-                        ]
-                    ],
-                    "displayMode": 0,
-                    "type": 24
-                }
-            ],
-            "implicitMods": [
-                "Damage Penetrates 1% Elemental Resistances",
-                "Damage Penetrates 1% Lightning Resistance"
-            ],
-            "explicitMods": [
-                "Only affects Passives in Very Large Ring",
-                "Passives in Radius can be Allocated without being connected to your tree",
-                "-13% to all Elemental Resistances"
-            ],
-            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
-            "flavourText": [
-                "Though we cannot touch; one thought, one wish, through centuries alone in darkness."
-            ],
-            "frameType": 3,
-            "x": 16,
-            "y": 0,
-            "inventoryId": "PassiveJewels"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL2Jhc2ljaW50IiwidyI6MSwiaCI6MSwic2NhbGUiOjEsImZyYWN0dXJlZCI6dHJ1ZX1d/b470123709/basicint.png",
-            "league": "Mercenaries",
-            "id": "deff2ed1cf9c9306650b788e3a68f7ca1d54efb1c49de272fdd018e2953ec1d4",
-            "fractured": true,
-            "name": "Foe Eye",
-            "typeLine": "Cobalt Jewel",
-            "baseType": "Cobalt Jewel",
-            "rarity": "Rare",
-            "ilvl": 84,
-            "identified": true,
-            "explicitMods": [
-                "+16% to Critical Strike Multiplier with Lightning Skills",
-                "+14% to Critical Strike Multiplier with Elemental Skills",
-                "15% increased Freeze Duration on Enemies",
-                "5% chance to Freeze"
-            ],
-            "fracturedMods": [
-                "6% increased maximum Life"
-            ],
-            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
-            "frameType": 2,
-            "x": 45,
-            "y": 0,
-            "inventoryId": "PassiveJewels"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL2Jhc2ljZGV4IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/9ed22a2b94/basicdex.png",
-            "league": "Mercenaries",
-            "id": "01c617fb08029c1b8eedeb4958cde21583d51231d0369dcf30dab0251ea389f9",
-            "name": "Hypnotic Shine",
-            "typeLine": "Viridian Jewel",
-            "baseType": "Viridian Jewel",
-            "rarity": "Rare",
-            "ilvl": 74,
-            "identified": true,
-            "explicitMods": [
-                "4% increased Attack Speed with Two Handed Melee Weapons",
-                "+15% to Critical Strike Multiplier with Two Handed Melee Weapons",
-                "+13% to Critical Strike Multiplier with Elemental Skills",
-                "16% increased Freeze Duration on Enemies",
-                "3% chance to Freeze"
-            ],
-            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
-            "frameType": 2,
-            "x": 29,
-            "y": 0,
-            "inventoryId": "PassiveJewels"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1B1enpsZVBpZWNlSmV3ZWxfR3JlYXRUYW5nbGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9035b9ffd4/PuzzlePieceJewel_GreatTangle.png",
-            "league": "Mercenaries",
-            "id": "bb177f62420ea7f9b1d04a0e0115c0f2949cec28cbfa57d633ef34401fd3ab61",
-            "name": "Forbidden Flesh",
-            "typeLine": "Cobalt Jewel",
-            "baseType": "Cobalt Jewel",
-            "rarity": "Unique",
-            "ilvl": 86,
+            "ilvl": 85,
             "identified": true,
             "corrupted": true,
             "properties": [
@@ -554,7 +267,7 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
                     "name": "Class:",
                     "values": [
                         [
-                            "Duelist",
+                            "Witch",
                             0
                         ]
                     ],
@@ -563,15 +276,15 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
                 }
             ],
             "explicitMods": [
-                "Allocates First to Strike, Last to Fall if you have the matching modifier on Forbidden Flame"
+                "Allocates Liege of the Primordial if you have the matching modifier on Forbidden Flesh"
             ],
             "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
             "flavourText": [
-                "The bodies of those wholly subsumed by the Tangle\r",
-                "continue to merge and mutate and cry out for release..."
+                "The minds of those studied utterly by the Cleansing Fire\r",
+                "continue to think and dream and beg for silence..."
             ],
             "frameType": 3,
-            "x": 47,
+            "x": 51,
             "y": 0,
             "inventoryId": "PassiveJewels"
         },
@@ -579,15 +292,16 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
             "verified": false,
             "w": 1,
             "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1ByaXN0aW5lQ29uZGl0aW9uaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5ad58d3a2e/PristineConditioning.png",
-            "league": "Mercenaries",
-            "id": "0f98e16c3319ae4a5aa3aebc1df01a13f3db54d0700bb2e3da4dc307a8093ab6",
-            "name": "Ancestral Vision",
-            "typeLine": "Viridian Jewel",
-            "baseType": "Viridian Jewel",
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1B1enpsZVBpZWNlSmV3ZWxfR3JlYXRUYW5nbGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9035b9ffd4/PuzzlePieceJewel_GreatTangle.png",
+            "league": "Keepers",
+            "id": "ba850922f23081481870e321690b6649ff39d27aa59124ec7c5a5f651a3e9308",
+            "name": "Forbidden Flesh",
+            "typeLine": "Cobalt Jewel",
+            "baseType": "Cobalt Jewel",
             "rarity": "Unique",
-            "ilvl": 68,
+            "ilvl": 85,
             "identified": true,
+            "corrupted": true,
             "properties": [
                 {
                     "name": "Limited to",
@@ -600,60 +314,29 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
                     "displayMode": 0
                 }
             ],
-            "explicitMods": [
-                "+8 to Dexterity",
-                "Modifiers to Chance to Suppress Spell Damage also apply to Chance to Avoid Elemental Ailments at 50% of their Value"
-            ],
-            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
-            "flavourText": [
-                "The spirits of our ancestors guided us from the Archipelago to the continent.\r",
-                "Inextricably, the purity of our souls is linked to the ones who came before us."
-            ],
-            "frameType": 3,
-            "x": 5,
-            "y": 0,
-            "inventoryId": "PassiveJewels"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL05ld0dlbUJhc2UzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/db35e60885/NewGemBase3.png",
-            "league": "Mercenaries",
-            "id": "cab7b13195659c9f6c5ad50abf76bf26818a5c74eb4ad14d110007e703ca4282",
-            "name": "Behemoth Cut",
-            "typeLine": "Large Cluster Jewel",
-            "baseType": "Large Cluster Jewel",
-            "rarity": "Rare",
-            "ilvl": 83,
-            "identified": true,
             "requirements": [
                 {
-                    "name": "Level",
+                    "name": "Class:",
                     "values": [
                         [
-                            "54",
+                            "Witch",
                             0
                         ]
                     ],
                     "displayMode": 0,
-                    "type": 62
+                    "type": 57
                 }
             ],
-            "enchantMods": [
-                "Adds 8 Passive Skills",
-                "2 Added Passive Skills are Jewel Sockets",
-                "Added Small Passive Skills grant: Axe Attacks deal 12% increased Damage with Hits and Ailments\nAdded Small Passive Skills grant: Sword Attacks deal 12% increased Damage with Hits and Ailments"
-            ],
             "explicitMods": [
-                "Added Small Passive Skills also grant: +3 to All Attributes",
-                "1 Added Passive Skill is Drive the Destruction",
-                "1 Added Passive Skill is Feed the Fury",
-                "1 Added Passive Skill is Martial Prowess"
+                "Allocates Liege of the Primordial if you have the matching modifier on Forbidden Flame"
             ],
-            "descrText": "Place into an allocated Large Jewel Socket on the Passive Skill Tree. Added passives do not interact with jewel radiuses. Right click to remove from the Socket.",
-            "frameType": 2,
-            "x": 12,
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The bodies of those wholly subsumed by the Tangle\r",
+                "continue to merge and mutate and cry out for release..."
+            ],
+            "frameType": 3,
+            "x": 53,
             "y": 0,
             "inventoryId": "PassiveJewels"
         },
@@ -662,8 +345,8 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
             "w": 1,
             "h": 1,
             "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL0thcnVpQ2l2aWxpemF0aW9uIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/04aefd20e6/KaruiCivilization.png",
-            "league": "Mercenaries",
-            "id": "33f8b068f2dee06a8493d923db1c7db8905082d72543f9c2b46d81b4bd07ad52",
+            "league": "Keepers",
+            "id": "5f3f404db7b590285c0f7abeed6b817853b3cae8908d72a2570c3acd8abd2dfc",
             "name": "Lethal Pride",
             "typeLine": "Timeless Jewel",
             "baseType": "Timeless Jewel",
@@ -694,7 +377,7 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
                 }
             ],
             "explicitMods": [
-                "Commanded leadership over 14845 warriors under Akoya\nPassives in radius are Conquered by the Karui",
+                "Commanded leadership over 15358 warriors under Kaom\nPassives in radius are Conquered by the Karui",
                 "Historic"
             ],
             "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
@@ -702,7 +385,7 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
                 "They believed themselves the greatest warriors, but that savagery turned upon their own."
             ],
             "frameType": 3,
-            "x": 4,
+            "x": 14,
             "y": 0,
             "inventoryId": "PassiveJewels"
         },
@@ -710,14 +393,55 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
             "verified": false,
             "w": 1,
             "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1B1enpsZVBpZWNlSmV3ZWxfQ2xlYW5zaW5nRmlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWxpYyI6MTJ9XQ/9da520ef71/PuzzlePieceJewel_CleansingFire.png",
-            "league": "Mercenaries",
-            "id": "a7570cf97d76fc960a1864fc7a57def6c3f977246fb45f7302afc414c95ec510",
-            "isRelic": true,
-            "foilVariation": 12,
-            "name": "Forbidden Flame",
-            "typeLine": "Crimson Jewel",
-            "baseType": "Crimson Jewel",
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL05ld0dlbUJhc2UzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/db35e60885/NewGemBase3.png",
+            "league": "Keepers",
+            "id": "7239265739b16bf4b39bba73cd732db9b3b8999a76eb493783dcdeeff36fa1f8",
+            "name": "Dragon Shine",
+            "typeLine": "Large Cluster Jewel",
+            "baseType": "Large Cluster Jewel",
+            "rarity": "Rare",
+            "ilvl": 83,
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 62
+                }
+            ],
+            "enchantMods": [
+                "Adds 8 Passive Skills",
+                "2 Added Passive Skills are Jewel Sockets",
+                "Added Small Passive Skills grant: 12% increased Chaos Damage"
+            ],
+            "explicitMods": [
+                "Added Small Passive Skills also grant: 1% increased Attack and Cast Speed with Chaos Skills",
+                "1 Added Passive Skill is Overwhelming Malice",
+                "1 Added Passive Skill is Unholy Grace",
+                "1 Added Passive Skill is Unwaveringly Evil"
+            ],
+            "descrText": "Place into an allocated Large Jewel Socket on the Passive Skill Tree. Added passives do not interact with jewel radiuses. Right click to remove from the Socket.",
+            "frameType": 2,
+            "x": 20,
+            "y": 0,
+            "inventoryId": "PassiveJewels"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL0JsdWVKZXdlbDciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/73584bc29e/BlueJewel7.png",
+            "league": "Keepers",
+            "id": "1cf2adfe8dda77b504013e627492e86af8b7dd74b51177cba9ce51ffa8985b2f",
+            "name": "Healthy Mind",
+            "typeLine": "Cobalt Jewel",
+            "baseType": "Cobalt Jewel",
             "rarity": "Unique",
             "ilvl": 84,
             "identified": true,
@@ -732,31 +456,29 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
                         ]
                     ],
                     "displayMode": 0
-                }
-            ],
-            "requirements": [
+                },
                 {
-                    "name": "Class:",
+                    "name": "Radius",
                     "values": [
                         [
-                            "Duelist",
+                            "Large",
                             0
                         ]
                     ],
                     "displayMode": 0,
-                    "type": 57
+                    "type": 24
                 }
             ],
             "explicitMods": [
-                "Allocates First to Strike, Last to Fall if you have the matching modifier on Forbidden Flesh"
+                "16% increased maximum Mana",
+                "Increases and Reductions to Life in Radius are Transformed to apply to Mana at 200% of their value"
             ],
             "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
             "flavourText": [
-                "The minds of those studied utterly by the Cleansing Fire\r",
-                "continue to think and dream and beg for silence..."
+                "For the ambitious, flesh is a limitation."
             ],
-            "frameType": 10,
-            "x": 10,
+            "frameType": 3,
+            "x": 5,
             "y": 0,
             "inventoryId": "PassiveJewels"
         },
@@ -764,503 +486,267 @@ const passiveSkillsResultList: PassiveSkillTypes.GetPassiveSkillsResult[] = [{
             "verified": false,
             "w": 1,
             "h": 1,
-            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL2Jhc2ljZGV4IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/9ed22a2b94/basicdex.png",
-            "league": "Mercenaries",
-            "id": "f825be686c5755da66c87dd536c17b0f7e58b7cc4e15a5b35d6da737ef422d13",
-            "name": "Bramble Glimmer",
-            "typeLine": "Viridian Jewel",
-            "baseType": "Viridian Jewel",
-            "rarity": "Rare",
-            "ilvl": 77,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL0VsZGVySmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/278c673716/ElderJewel.png",
+            "league": "Keepers",
+            "id": "0aa20fad56d7867b2d85a6415060adc9ee7495d987fd8ca434daa26f1f5b2301",
+            "name": "Watcher's Eye",
+            "typeLine": "Prismatic Jewel",
+            "baseType": "Prismatic Jewel",
+            "rarity": "Unique",
+            "ilvl": 86,
             "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
             "explicitMods": [
-                "8% increased Damage",
-                "+15% to Critical Strike Multiplier with Two Handed Melee Weapons",
-                "+18% to Critical Strike Multiplier with Lightning Skills",
-                "15% increased Freeze Duration on Enemies",
-                "5% chance to Freeze"
+                "4% increased maximum Energy Shield",
+                "5% increased maximum Life",
+                "4% increased maximum Mana",
+                "Regenerate 1.17% of Life per second while affected by Vitality",
+                "Gain 10% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity",
+                "47% increased Physical Damage while using Pride"
             ],
             "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
-            "frameType": 2,
-            "x": 27,
+            "flavourText": [
+                "One by one, they stood their ground against a creature \r",
+                "they had no hope of understanding, let alone defeating,\r",
+                "and one by one, they became a part of it."
+            ],
+            "frameType": 3,
+            "x": 4,
             "y": 0,
             "inventoryId": "PassiveJewels"
         }
     ],
     "jewel_data": {
         "17": {
-            "type": "JewelPassiveTreeExpansionLarge",
-            "subgraph": {
-                "groups": {
-                    "expansion_17": {
-                        "proxy": "48132",
-                        "nodes": [
-                            "1156",
-                            "157",
-                            "158",
-                            "159",
-                            "160",
-                            "161",
-                            "163",
-                            "165",
-                            "167"
-                        ],
-                        "x": 8807.45,
-                        "y": 129.815,
-                        "orbits": [
-                            3
-                        ]
-                    }
-                },
-                "nodes": {
-                    "1156": {
-                        "skill": "44810",
-                        "name": "Axe and Sword Damage Mastery",
-                        "icon": "Art/2DArt/SkillIcons/passives/AltMasteryGroupSwordAndAxe.png",
-                        "isMastery": true,
-                        "stats": [],
-                        "group": "expansion_17",
-                        "orbit": 0,
-                        "orbitIndex": 0,
-                        "out": [],
-                        "in": []
-                    },
-                    "157": {
-                        "skill": "6910",
-                        "name": "Medium Jewel Socket",
-                        "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
-                        "isJewelSocket": true,
-                        "expansionJewel": {
-                            "size": 1,
-                            "index": 0,
-                            "proxy": "35926",
-                            "parent": "32763"
-                        },
-                        "stats": [],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 1,
-                        "out": [
-                            "158"
-                        ],
-                        "in": [
-                            "167"
-                        ]
-                    },
-                    "158": {
-                        "skill": "14084",
-                        "name": "Axe and Sword Damage",
-                        "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
-                        "stats": [
-                            "Axe Attacks deal 12% increased Damage with Hits and Ailments",
-                            "Sword Attacks deal 12% increased Damage with Hits and Ailments",
-                            "+3% to Chaos Resistance"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 3,
-                        "out": [
-                            "159"
-                        ],
-                        "in": [
-                            "157"
-                        ]
-                    },
-                    "159": {
-                        "skill": "41594",
-                        "name": "Calamitous",
-                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNotable.png",
-                        "isNotable": true,
-                        "stats": [
-                            "10% chance to Freeze, Shock and Ignite",
-                            "30% increased Elemental Damage with Attack Skills",
-                            "15% increased Effect of Non-Damaging Ailments"
-                        ],
-                        "reminderText": [
-                            "(Freeze lowers Enemy Action Speed to zero, preventing them from acting. Duration is based on the Cold Damage of the Hit)",
-                            "(Shock increases Damage taken by up to 50%, depending on the amount of Lightning Damage in the hit, for 2 seconds)",
-                            "(Ignite deals Fire Damage over time, based on the base Fire Damage of the Skill, for 4 seconds)",
-                            "(Ailments that do not deal Damage are Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)"
-                        ],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 4,
-                        "out": [
-                            "160"
-                        ],
-                        "in": [
-                            "158"
-                        ]
-                    },
-                    "160": {
-                        "skill": "14084",
-                        "name": "Axe and Sword Damage",
-                        "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
-                        "stats": [
-                            "Axe Attacks deal 12% increased Damage with Hits and Ailments",
-                            "Sword Attacks deal 12% increased Damage with Hits and Ailments",
-                            "+3% to Chaos Resistance"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 5,
-                        "out": [
-                            "161"
-                        ],
-                        "in": [
-                            "159"
-                        ]
-                    },
-                    "161": {
-                        "skill": "33753",
-                        "name": "Medium Jewel Socket",
-                        "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
-                        "isJewelSocket": true,
-                        "expansionJewel": {
-                            "size": 1,
-                            "index": 2,
-                            "proxy": "50179",
-                            "parent": "32763"
-                        },
-                        "stats": [],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 7,
-                        "out": [
-                            "163"
-                        ],
-                        "in": [
-                            "160"
-                        ]
-                    },
-                    "163": {
-                        "skill": "14518",
-                        "name": "Fuel the Fight",
-                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNotable.png",
-                        "isNotable": true,
-                        "stats": [
-                            "8% increased Attack Speed",
-                            "0.4% of Attack Damage Leeched as Mana",
-                            "20% increased Damage while Leeching"
-                        ],
-                        "reminderText": [
-                            "(Leeched Mana is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
-                        ],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 9,
-                        "out": [
-                            "165"
-                        ],
-                        "in": [
-                            "161"
-                        ]
-                    },
-                    "165": {
-                        "skill": "14084",
-                        "name": "Axe and Sword Damage",
-                        "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
-                        "stats": [
-                            "Axe Attacks deal 12% increased Damage with Hits and Ailments",
-                            "Sword Attacks deal 12% increased Damage with Hits and Ailments",
-                            "+3% to Chaos Resistance"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 12,
-                        "out": [
-                            "167",
-                            "163"
-                        ],
-                        "in": [
-                            "32763"
-                        ]
-                    },
-                    "167": {
-                        "skill": "37",
-                        "name": "Martial Prowess",
-                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNotable.png",
-                        "isNotable": true,
-                        "stats": [
-                            "20% increased Attack Damage",
-                            "6% increased Attack Speed",
-                            "15% increased Global Accuracy Rating",
-                            "20% increased Damage with Ailments from Attack Skills"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_17",
-                        "orbit": 3,
-                        "orbitIndex": 15,
-                        "out": [
-                            "157"
-                        ],
-                        "in": [
-                            "165"
-                        ]
-                    }
-                }
-            }
+            "type": "JewelPrismatic",
+            "radius": 1800
         },
-        "16": {
-            "type": "JewelStr",
-            "radius": 2400,
-            "radiusMin": 2040
+        "51": {
+            "type": "JewelStr"
         },
-        "45": {
+        "53": {
             "type": "JewelInt"
         },
-        "29": {
-            "type": "JewelDex"
-        },
-        "47": {
-            "type": "JewelInt"
-        },
-        "5": {
-            "type": "JewelDex"
-        },
-        "12": {
-            "type": "JewelPassiveTreeExpansionLarge",
-            "subgraph": {
-                "groups": {
-                    "expansion_12": {
-                        "proxy": "25134",
-                        "nodes": [
-                            "1039",
-                            "40",
-                            "42",
-                            "43",
-                            "44",
-                            "45",
-                            "46",
-                            "48",
-                            "50"
-                        ],
-                        "x": 4715,
-                        "y": 8517.45,
-                        "orbits": [
-                            3
-                        ]
-                    }
-                },
-                "nodes": {
-                    "1039": {
-                        "skill": "44810",
-                        "name": "Axe and Sword Damage Mastery",
-                        "icon": "Art/2DArt/SkillIcons/passives/AltMasteryGroupSwordAndAxe.png",
-                        "isMastery": true,
-                        "stats": [],
-                        "group": "expansion_12",
-                        "orbit": 0,
-                        "orbitIndex": 0,
-                        "out": [],
-                        "in": []
-                    },
-                    "40": {
-                        "skill": "37",
-                        "name": "Martial Prowess",
-                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNotable.png",
-                        "isNotable": true,
-                        "stats": [
-                            "20% increased Attack Damage",
-                            "6% increased Attack Speed",
-                            "15% increased Global Accuracy Rating",
-                            "20% increased Damage with Ailments from Attack Skills"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 1,
-                        "out": [
-                            "42"
-                        ],
-                        "in": [
-                            "50"
-                        ]
-                    },
-                    "42": {
-                        "skill": "22994",
-                        "name": "Medium Jewel Socket",
-                        "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
-                        "isJewelSocket": true,
-                        "expansionJewel": {
-                            "size": 1,
-                            "index": 0,
-                            "proxy": "51233",
-                            "parent": "46882"
-                        },
-                        "stats": [],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 4,
-                        "out": [
-                            "43"
-                        ],
-                        "in": [
-                            "40"
-                        ]
-                    },
-                    "43": {
-                        "skill": "14084",
-                        "name": "Axe and Sword Damage",
-                        "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
-                        "stats": [
-                            "+3 to all Attributes",
-                            "Axe Attacks deal 12% increased Damage with Hits and Ailments",
-                            "Sword Attacks deal 12% increased Damage with Hits and Ailments"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 5,
-                        "out": [
-                            "44"
-                        ],
-                        "in": [
-                            "42"
-                        ]
-                    },
-                    "44": {
-                        "skill": "41284",
-                        "name": "Drive the Destruction",
-                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNotable.png",
-                        "isNotable": true,
-                        "stats": [
-                            "0.8% of Attack Damage Leeched as Life",
-                            "25% increased Attack Damage when on Full Life",
-                            "Attacks have 10% chance to Maim on Hit"
-                        ],
-                        "reminderText": [
-                            "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)",
-                            "(Maimed enemies have 30% reduced Movement Speed)"
-                        ],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 7,
-                        "out": [
-                            "45"
-                        ],
-                        "in": [
-                            "43"
-                        ]
-                    },
-                    "45": {
-                        "skill": "14084",
-                        "name": "Axe and Sword Damage",
-                        "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
-                        "stats": [
-                            "+3 to all Attributes",
-                            "Axe Attacks deal 12% increased Damage with Hits and Ailments",
-                            "Sword Attacks deal 12% increased Damage with Hits and Ailments"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 8,
-                        "out": [
-                            "46"
-                        ],
-                        "in": [
-                            "44"
-                        ]
-                    },
-                    "46": {
-                        "skill": "46393",
-                        "name": "Medium Jewel Socket",
-                        "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
-                        "isJewelSocket": true,
-                        "expansionJewel": {
-                            "size": 1,
-                            "index": 2,
-                            "proxy": "35853",
-                            "parent": "46882"
-                        },
-                        "stats": [],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 9,
-                        "out": [
-                            "48"
-                        ],
-                        "in": [
-                            "45"
-                        ]
-                    },
-                    "48": {
-                        "skill": "26197",
-                        "name": "Feed the Fury",
-                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedAttackDamageNotable.png",
-                        "isNotable": true,
-                        "stats": [
-                            "0.4% of Attack Damage Leeched as Life",
-                            "30% increased Damage while Leeching",
-                            "15% increased Attack Speed while Leeching"
-                        ],
-                        "reminderText": [
-                            "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
-                        ],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 12,
-                        "out": [
-                            "50"
-                        ],
-                        "in": [
-                            "46"
-                        ]
-                    },
-                    "50": {
-                        "skill": "14084",
-                        "name": "Axe and Sword Damage",
-                        "icon": "Art/2DArt/SkillIcons/passives/NodeAxeandSwordDamage.png",
-                        "stats": [
-                            "+3 to all Attributes",
-                            "Axe Attacks deal 12% increased Damage with Hits and Ailments",
-                            "Sword Attacks deal 12% increased Damage with Hits and Ailments"
-                        ],
-                        "reminderText": [
-                            "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
-                        ],
-                        "group": "expansion_12",
-                        "orbit": 3,
-                        "orbitIndex": 15,
-                        "out": [
-                            "40",
-                            "48"
-                        ],
-                        "in": [
-                            "46882"
-                        ]
-                    }
-                }
-            }
-        },
-        "4": {
+        "14": {
             "type": "JewelTimeless",
             "radius": 1800,
             "radiusVisual": "Karui"
         },
-        "10": {
-            "type": "JewelStr"
+        "20": {
+            "type": "JewelPassiveTreeExpansionLarge",
+            "subgraph": {
+                "groups": {
+                    "expansion_20": {
+                        "proxy": "18756",
+                        "nodes": [
+                            "1195",
+                            "195",
+                            "196",
+                            "197",
+                            "198",
+                            "200",
+                            "202",
+                            "204",
+                            "206"
+                        ],
+                        "x": 4887.73,
+                        "y": -8158.76,
+                        "orbits": [
+                            3
+                        ]
+                    }
+                },
+                "nodes": {
+                    "1195": {
+                        "skill": "12117",
+                        "name": "Chaos Damage Mastery",
+                        "icon": "Art/2DArt/SkillIcons/passives/AltMasteryChaos.png",
+                        "isMastery": true,
+                        "stats": [],
+                        "group": "expansion_20",
+                        "orbit": 0,
+                        "orbitIndex": 0,
+                        "out": [],
+                        "in": []
+                    },
+                    "195": {
+                        "skill": "46248",
+                        "name": "Chaos Damage",
+                        "icon": "Art/2DArt/SkillIcons/passives/ChaosDamagenode.png",
+                        "stats": [
+                            "12% increased Chaos Damage",
+                            "1% increased Attack and Cast Speed with Chaos Skills"
+                        ],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 0,
+                        "out": [
+                            "196"
+                        ],
+                        "in": [
+                            "206"
+                        ]
+                    },
+                    "196": {
+                        "skill": "38592",
+                        "name": "Unwaveringly Evil",
+                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedChaosDamage.png",
+                        "isNotable": true,
+                        "stats": [
+                            "30% increased Chaos Damage",
+                            "Chaos Skills ignore interruption from Stuns"
+                        ],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 1,
+                        "out": [
+                            "197"
+                        ],
+                        "in": [
+                            "195"
+                        ]
+                    },
+                    "197": {
+                        "skill": "46248",
+                        "name": "Chaos Damage",
+                        "icon": "Art/2DArt/SkillIcons/passives/ChaosDamagenode.png",
+                        "stats": [
+                            "12% increased Chaos Damage",
+                            "1% increased Attack and Cast Speed with Chaos Skills"
+                        ],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 3,
+                        "out": [
+                            "198"
+                        ],
+                        "in": [
+                            "196"
+                        ]
+                    },
+                    "198": {
+                        "skill": "13170",
+                        "name": "Medium Jewel Socket",
+                        "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
+                        "isJewelSocket": true,
+                        "expansionJewel": {
+                            "size": 1,
+                            "index": 2,
+                            "proxy": "24452",
+                            "parent": "21984"
+                        },
+                        "stats": [],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 4,
+                        "out": [
+                            "200"
+                        ],
+                        "in": [
+                            "197"
+                        ]
+                    },
+                    "200": {
+                        "skill": "2264",
+                        "name": "Unholy Grace",
+                        "icon": "Art/2DArt/SkillIcons/passives/IncreasedChaosDamage.png",
+                        "isNotable": true,
+                        "stats": [
+                            "30% increased Chaos Damage",
+                            "10% increased Attack and Cast Speed"
+                        ],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 7,
+                        "out": [
+                            "202"
+                        ],
+                        "in": [
+                            "198"
+                        ]
+                    },
+                    "202": {
+                        "skill": "46248",
+                        "name": "Chaos Damage",
+                        "icon": "Art/2DArt/SkillIcons/passives/ChaosDamagenode.png",
+                        "stats": [
+                            "12% increased Chaos Damage",
+                            "1% increased Attack and Cast Speed with Chaos Skills"
+                        ],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 9,
+                        "out": [
+                            "204",
+                            "200"
+                        ],
+                        "in": [
+                            "21984"
+                        ]
+                    },
+                    "204": {
+                        "skill": "2977",
+                        "name": "Overwhelming Malice",
+                        "icon": "Art/2DArt/SkillIcons/passives/IncreaseCritChanceNotable.png",
+                        "isNotable": true,
+                        "stats": [
+                            "10% chance to gain Unholy Might for 4 seconds on Critical Strike"
+                        ],
+                        "reminderText": [
+                            "(Unholy Might grants 100% of Physical Damage converted to Chaos Damage and 25% chance to apply Withered on Hit)"
+                        ],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 12,
+                        "out": [
+                            "206"
+                        ],
+                        "in": [
+                            "202"
+                        ]
+                    },
+                    "206": {
+                        "skill": "64583",
+                        "name": "Medium Jewel Socket",
+                        "icon": "Art/2DArt/SkillIcons/passives/MasteryBlank.png",
+                        "isJewelSocket": true,
+                        "expansionJewel": {
+                            "size": 1,
+                            "index": 0,
+                            "proxy": "58194",
+                            "parent": "21984"
+                        },
+                        "stats": [],
+                        "group": "expansion_20",
+                        "orbit": 3,
+                        "orbitIndex": 15,
+                        "out": [
+                            "195"
+                        ],
+                        "in": [
+                            "204"
+                        ]
+                    }
+                }
+            }
         },
-        "27": {
-            "type": "JewelDex"
+        "5": {
+            "type": "JewelInt",
+            "radius": 1800
+        },
+        "4": {
+            "type": "JewelPrismatic"
         }
     }
 }
